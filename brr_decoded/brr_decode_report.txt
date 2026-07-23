@@ -1,0 +1,141 @@
+=== BRR音频样本深度解码报告 ===
+
+SPC转储数: 12
+解码样本总数: 86
+WAV文件数: 86
+采样率: 32000 Hz
+
+--- spc_00_title ---
+  DIR=0x04 KON=0x8700 FLG=0x00
+  解码样本: 7
+    Slot   0 ptr=0xAAA0     48 samples (2ms) range=2 filter=2 loop=1 audio=Y
+    Slot   1 ptr=0xA00A     48 samples (2ms) range=8 filter=0 loop=0 audio=Y
+    Slot   2 ptr=0xAAAA    320 samples (10ms) range=6 filter=2 loop=0 audio=Y
+    Slot  35 ptr=0x311E   8224 samples (257ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    944 samples (30ms) range=0 filter=0 loop=0 audio=N
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+
+--- spc_01_intro_end ---
+  DIR=0x04 KON=0x7E00 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x3432   6768 samples (212ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    464 samples (14ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xB000     80 samples (2ms) range=11 filter=0 loop=1 audio=Y
+
+--- spc_02_town ---
+  DIR=0x04 KON=0xA000 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x3B1E   2240 samples (70ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    944 samples (30ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xB000     80 samples (2ms) range=11 filter=0 loop=1 audio=Y
+
+--- spc_03_wm_entry ---
+  DIR=0x04 KON=0xA000 FLG=0x00
+  解码样本: 8
+    Slot   1 ptr=0x8008     32 samples (1ms) range=10 filter=2 loop=1 audio=Y
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x0232   2048 samples (64ms) range=5 filter=0 loop=1 audio=Y
+    Slot  38 ptr=0x0804    704 samples (22ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xB000     80 samples (2ms) range=11 filter=0 loop=1 audio=Y
+
+--- spc_04_wm_walk1 ---
+  DIR=0x04 KON=0xA000 FLG=0x00
+  解码样本: 8
+    Slot   1 ptr=0x8008     32 samples (1ms) range=10 filter=2 loop=1 audio=Y
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x0E1E   1232 samples (38ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    704 samples (22ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xB000     80 samples (2ms) range=11 filter=0 loop=1 audio=Y
+
+--- spc_05_before_config ---
+  DIR=0x04 KON=0xA000 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x1A0A  18672 samples (584ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    704 samples (22ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xE000     16 samples (0ms) range=15 filter=3 loop=3 audio=Y
+
+--- spc_06_config_open ---
+  DIR=0x04 KON=0x7E00 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x1B00  18240 samples (570ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    320 samples (10ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xE000     16 samples (0ms) range=15 filter=3 loop=3 audio=Y
+
+--- spc_07_config_nav ---
+  DIR=0x04 KON=0x7E00 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x1C28  17712 samples (554ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    320 samples (10ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xE000     16 samples (0ms) range=15 filter=3 loop=3 audio=Y
+
+--- spc_08_config_closed ---
+  DIR=0x04 KON=0x7E00 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x1D32  16800 samples (525ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    320 samples (10ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xE000     16 samples (0ms) range=15 filter=3 loop=3 audio=Y
+
+--- spc_09_wm_terrain1 ---
+  DIR=0x04 KON=0x7E00 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x271E  11344 samples (354ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    320 samples (10ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xE000     16 samples (0ms) range=15 filter=3 loop=3 audio=Y
+
+--- spc_10_after_start ---
+  DIR=0x04 KON=0x7E00 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x351E   6352 samples (198ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    320 samples (10ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xE000     16 samples (0ms) range=15 filter=3 loop=3 audio=Y
+
+--- spc_11_final ---
+  DIR=0x04 KON=0x7E00 FLG=0x00
+  解码样本: 7
+    Slot  18 ptr=0x5E00  15520 samples (485ms) range=0 filter=0 loop=0 audio=N
+    Slot  19 ptr=0x5E5E  15328 samples (479ms) range=0 filter=0 loop=0 audio=N
+    Slot  35 ptr=0x380A   5024 samples (157ms) range=0 filter=0 loop=0 audio=N
+    Slot  38 ptr=0x0804    320 samples (10ms) range=8 filter=0 loop=0 audio=Y
+    Slot 251 ptr=0x8027    224 samples (7ms) range=5 filter=3 loop=0 audio=Y
+    Slot 252 ptr=0x7E27    912 samples (28ms) range=0 filter=0 loop=0 audio=N
+    Slot 255 ptr=0xE000     16 samples (0ms) range=15 filter=3 loop=3 audio=Y
+
