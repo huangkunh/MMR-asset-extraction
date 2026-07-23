@@ -1,0 +1,2934 @@
+[
+  {
+    "label": "spc_00_title",
+    "reset_vector": 33144,
+    "entry_point": 33144,
+    "code_regions": [],
+    "subroutines": [
+      {
+        "addr": 5,
+        "num_instructions": 107,
+        "has_ret": false,
+        "first_instructions": [
+          "$0005: 00           NOP",
+          "$0006: 00           NOP",
+          "$0007: 00           NOP",
+          "$0008: 00           NOP",
+          "$0009: 00           NOP",
+          "$000A: 00           NOP",
+          "$000B: 00           NOP",
+          "$000C: 00           NOP",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP"
+        ]
+      },
+      {
+        "addr": 8,
+        "num_instructions": 106,
+        "has_ret": false,
+        "first_instructions": [
+          "$0008: 00           NOP",
+          "$0009: 00           NOP",
+          "$000A: 00           NOP",
+          "$000B: 00           NOP",
+          "$000C: 00           NOP",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP",
+          "$000F: 00           NOP",
+          "$0010: 00           NOP",
+          "$0011: 00           NOP"
+        ]
+      },
+      {
+        "addr": 67,
+        "num_instructions": 98,
+        "has_ret": false,
+        "first_instructions": [
+          "$0043: 40           SETP",
+          "$0044: 03 CF 87 80  BBS$CF,$87",
+          "$0048: 90 7E        BCC$00C8",
+          "$004A: 45 CF        EOR A,$CF",
+          "$004C: 87           ADC A,(X+)",
+          "$004D: 00           NOP",
+          "$004E: 00           NOP",
+          "$004F: 00           NOP",
+          "$0050: 00           NOP",
+          "$0051: 04 01        OR A,$01"
+        ]
+      },
+      {
+        "addr": 129,
+        "num_instructions": 114,
+        "has_ret": false,
+        "first_instructions": [
+          "$0081: 00           NOP",
+          "$0082: 00           NOP",
+          "$0083: 81 0F        TCALL$0F",
+          "$0085: 0F           BRK",
+          "$0086: 01 15        TCALL$15",
+          "$0088: 01 00        TCALL$00",
+          "$008A: 00           NOP",
+          "$008B: 01 6C        TCALL$6C",
+          "$008D: 00           NOP",
+          "$008E: 70 00        BVS$0090"
+        ]
+      },
+      {
+        "addr": 133,
+        "num_instructions": 113,
+        "has_ret": false,
+        "first_instructions": [
+          "$0085: 0F           BRK",
+          "$0086: 01 15        TCALL$15",
+          "$0088: 01 00        TCALL$00",
+          "$008A: 00           NOP",
+          "$008B: 01 6C        TCALL$6C",
+          "$008D: 00           NOP",
+          "$008E: 70 00        BVS$0090",
+          "$0090: 06           OR A,(X)",
+          "$0091: 06           OR A,(X)",
+          "$0092: 00           NOP"
+        ]
+      },
+      {
+        "addr": 153,
+        "num_instructions": 108,
+        "has_ret": false,
+        "first_instructions": [
+          "$0099: 00           NOP",
+          "$009A: 00           NOP",
+          "$009B: 00           NOP",
+          "$009C: D8 00 00     MOV $0000",
+          "$009F: 00           NOP",
+          "$00A0: 00           NOP",
+          "$00A1: 00           NOP",
+          "$00A2: 02 71 E0     SET1$E071",
+          "$00A5: E0           CLRV",
+          "$00A6: E0           CLRV"
+        ]
+      },
+      {
+        "addr": 189,
+        "num_instructions": 99,
+        "has_ret": false,
+        "first_instructions": [
+          "$00BD: 00           NOP",
+          "$00BE: 00           NOP",
+          "$00BF: FF           MOV A,(X)+",
+          "$00C0: FF           MOV A,(X)+",
+          "$00C1: 00           NOP",
+          "$00C2: 00           NOP",
+          "$00C3: 00           NOP",
+          "$00C4: 00           NOP",
+          "$00C5: 00           NOP",
+          "$00C6: 00           NOP"
+        ]
+      }
+    ],
+    "instruction_count": 279,
+    "entry_disasm": [
+      {
+        "addr": 33144,
+        "hex": "08 C2",
+        "mnemonic": "OR A,##$C2",
+        "opcode": 8
+      },
+      {
+        "addr": 33146,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33147,
+        "hex": "C2 10 48",
+        "mnemonic": "SET1$4810",
+        "opcode": 194
+      },
+      {
+        "addr": 33150,
+        "hex": "8B 0B",
+        "mnemonic": "DEC$0B",
+        "opcode": 139
+      },
+      {
+        "addr": 33152,
+        "hex": "DA 5A",
+        "mnemonic": "MOVW $5A",
+        "opcode": 218
+      },
+      {
+        "addr": 33154,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33155,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33156,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33157,
+        "hex": "5B E2",
+        "mnemonic": "LSR$E2",
+        "opcode": 91
+      },
+      {
+        "addr": 33159,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33160,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33161,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33162,
+        "hex": "48 AB",
+        "mnemonic": "EOR A,##$AB",
+        "opcode": 72
+      },
+      {
+        "addr": 33164,
+        "hex": "5C",
+        "mnemonic": "LSR",
+        "opcode": 92
+      },
+      {
+        "addr": 33165,
+        "hex": "90 81",
+        "mnemonic": "BCC$8110",
+        "opcode": 144
+      },
+      {
+        "addr": 33167,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33168,
+        "hex": "AD 11",
+        "mnemonic": "MOV A,##$11",
+        "opcode": 173
+      },
+      {
+        "addr": 33170,
+        "hex": "42 A5 58",
+        "mnemonic": "SET1$58A5",
+        "opcode": 66
+      },
+      {
+        "addr": 33173,
+        "hex": "F0 0F",
+        "mnemonic": "BEQ$81A6",
+        "opcode": 240
+      },
+      {
+        "addr": 33175,
+        "hex": "4B F4",
+        "mnemonic": "LSR$F4",
+        "opcode": 75
+      },
+      {
+        "addr": 33177,
+        "hex": "A5 81",
+        "mnemonic": "SBC A,$81",
+        "opcode": 165
+      },
+      {
+        "addr": 33179,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33180,
+        "hex": "61 BD",
+        "mnemonic": "TCALL$BD",
+        "opcode": 97
+      },
+      {
+        "addr": 33182,
+        "hex": "02 F5 48",
+        "mnemonic": "SET1$48F5",
+        "opcode": 2
+      },
+      {
+        "addr": 33185,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33186,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33187,
+        "hex": "F5 5A",
+        "mnemonic": "MOV A,$5A",
+        "opcode": 245
+      },
+      {
+        "addr": 33189,
+        "hex": "6B 7A",
+        "mnemonic": "ROR$7A",
+        "opcode": 107
+      },
+      {
+        "addr": 33191,
+        "hex": "FA 2B AB",
+        "mnemonic": "MOV $AB2B",
+        "opcode": 250
+      },
+      {
+        "addr": 33194,
+        "hex": "C2 20 68",
+        "mnemonic": "SET1$6820",
+        "opcode": 194
+      },
+      {
+        "addr": 33197,
+        "hex": "28 40",
+        "mnemonic": "AND A,##$40",
+        "opcode": 40
+      },
+      {
+        "addr": 33199,
+        "hex": "64 52",
+        "mnemonic": "CMP A,$52",
+        "opcode": 100
+      },
+      {
+        "addr": 33201,
+        "hex": "E6",
+        "mnemonic": "MOV A,(X)",
+        "opcode": 230
+      },
+      {
+        "addr": 33202,
+        "hex": "53 22 D4 81",
+        "mnemonic": "BBC$22,$D4",
+        "opcode": 83
+      },
+      {
+        "addr": 33206,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33207,
+        "hex": "A5 52",
+        "mnemonic": "SBC A,$52",
+        "opcode": 165
+      },
+      {
+        "addr": 33209,
+        "hex": "F0 F8",
+        "mnemonic": "BEQ$81B3",
+        "opcode": 240
+      },
+      {
+        "addr": 33211,
+        "hex": "64 53",
+        "mnemonic": "CMP A,$53",
+        "opcode": 100
+      },
+      {
+        "addr": 33213,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33215,
+        "hex": "C5 5C",
+        "mnemonic": "MOV A,$5C",
+        "opcode": 197
+      },
+      {
+        "addr": 33217,
+        "hex": "B0 0E",
+        "mnemonic": "BCS$81D1",
+        "opcode": 176
+      },
+      {
+        "addr": 33219,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33221,
+        "hex": "48 22",
+        "mnemonic": "EOR A,##$22",
+        "opcode": 72
+      },
+      {
+        "addr": 33223,
+        "hex": "D4 81",
+        "mnemonic": "MOV A,$81",
+        "opcode": 212
+      },
+      {
+        "addr": 33225,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33226,
+        "hex": "68 C5",
+        "mnemonic": "CMP A,##$C5",
+        "opcode": 104
+      },
+      {
+        "addr": 33228,
+        "hex": "5B F0",
+        "mnemonic": "LSR$F0",
+        "opcode": 91
+      },
+      {
+        "addr": 33230,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33231,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33232,
+        "hex": "EC 64",
+        "mnemonic": "MOV $64",
+        "opcode": 236
+      },
+      {
+        "addr": 33234,
+        "hex": "5B 6B",
+        "mnemonic": "LSR$6B",
+        "opcode": 91
+      },
+      {
+        "addr": 33236,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33237,
+        "hex": "67",
+        "mnemonic": "CMP A,(X+)",
+        "opcode": 103
+      },
+      {
+        "addr": 33238,
+        "hex": "BD",
+        "mnemonic": "MOV SP,X",
+        "opcode": 189
+      },
+      {
+        "addr": 33239,
+        "hex": "C2 F6 48",
+        "mnemonic": "SET1$48F6",
+        "opcode": 194
+      },
+      {
+        "addr": 33242,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33243,
+        "hex": "C0",
+        "mnemonic": "DI",
+        "opcode": 192
+      },
+      {
+        "addr": 33244,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33245,
+        "hex": "5A 6B",
+        "mnemonic": "ADDW YA,$6B",
+        "opcode": 90
+      },
+      {
+        "addr": 33247,
+        "hex": "FF",
+        "mnemonic": "MOV A,(X)+",
+        "opcode": 255
+      },
+      {
+        "addr": 33248,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33249,
+        "hex": "64 54",
+        "mnemonic": "CMP A,$54",
+        "opcode": 100
+      },
+      {
+        "addr": 33251,
+        "hex": "64 55",
+        "mnemonic": "CMP A,$55",
+        "opcode": 100
+      },
+      {
+        "addr": 33253,
+        "hex": "64 56",
+        "mnemonic": "CMP A,$56",
+        "opcode": 100
+      },
+      {
+        "addr": 33255,
+        "hex": "A2 02 00",
+        "mnemonic": "SET1$0002",
+        "opcode": 162
+      },
+      {
+        "addr": 33258,
+        "hex": "8E",
+        "mnemonic": "POP PSW",
+        "opcode": 142
+      },
+      {
+        "addr": 33259,
+        "hex": "32 0A 8E",
+        "mnemonic": "CLR1$8E0A",
+        "opcode": 50
+      },
+      {
+        "addr": 33262,
+        "hex": "36",
+        "mnemonic": "AND A,(X+)",
+        "opcode": 54
+      },
+      {
+        "addr": 33263,
+        "hex": "0A 9C 3A",
+        "mnemonic": "OR1 C,$3A9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33266,
+        "hex": "0A 9C 3B",
+        "mnemonic": "OR1 C,$3B9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33269,
+        "hex": "0A 60 20",
+        "mnemonic": "OR1 C,$2060",
+        "opcode": 10
+      },
+      {
+        "addr": 33272,
+        "hex": "E1 81",
+        "mnemonic": "TCALL$81",
+        "opcode": 225
+      },
+      {
+        "addr": 33274,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33275,
+        "hex": "07",
+        "mnemonic": "OR A,(X+)",
+        "opcode": 7
+      },
+      {
+        "addr": 33276,
+        "hex": "04 54",
+        "mnemonic": "OR A,$54",
+        "opcode": 4
+      },
+      {
+        "addr": 33278,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33279,
+        "hex": "06",
+        "mnemonic": "OR A,(X)",
+        "opcode": 6
+      },
+      {
+        "addr": 33280,
+        "hex": "04 55",
+        "mnemonic": "OR A,$55",
+        "opcode": 4
+      },
+      {
+        "addr": 33282,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33283,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33284,
+        "hex": "8D 4B",
+        "mnemonic": "MOV Y,##$4B",
+        "opcode": 141
+      },
+      {
+        "addr": 33286,
+        "hex": "04 A9",
+        "mnemonic": "OR A,$A9",
+        "opcode": 4
+      },
+      {
+        "addr": 33288,
+        "hex": "04 8D",
+        "mnemonic": "OR A,$8D",
+        "opcode": 4
+      },
+      {
+        "addr": 33290,
+        "hex": "4C 04",
+        "mnemonic": "LSR$04",
+        "opcode": 76
+      },
+      {
+        "addr": 33292,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33293,
+        "hex": "08 8D",
+        "mnemonic": "OR A,##$8D",
+        "opcode": 8
+      },
+      {
+        "addr": 33295,
+        "hex": "4D",
+        "mnemonic": "PUSH X",
+        "opcode": 77
+      },
+      {
+        "addr": 33296,
+        "hex": "04 6B",
+        "mnemonic": "OR A,$6B",
+        "opcode": 4
+      },
+      {
+        "addr": 33298,
+        "hex": "86",
+        "mnemonic": "ADC A,(X)",
+        "opcode": 134
+      },
+      {
+        "addr": 33299,
+        "hex": "44 85",
+        "mnemonic": "EOR A,$85",
+        "opcode": 68
+      },
+      {
+        "addr": 33301,
+        "hex": "46",
+        "mnemonic": "EOR A,(X)",
+        "opcode": 70
+      },
+      {
+        "addr": 33302,
+        "hex": "EB 85 31",
+        "mnemonic": "MOV $3185",
+        "opcode": 235
+      },
+      {
+        "addr": 33305,
+        "hex": "A5 54",
+        "mnemonic": "SBC A,$54",
+        "opcode": 165
+      },
+      {
+        "addr": 33307,
+        "hex": "29",
+        "mnemonic": "AND (X),(Y)",
+        "opcode": 41
+      },
+      {
+        "addr": 33308,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33309,
+        "hex": "C9",
+        "mnemonic": "MOV (X),(Y)",
+        "opcode": 201
+      },
+      {
+        "addr": 33310,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33311,
+        "hex": "D0 02",
+        "mnemonic": "BNE$8223",
+        "opcode": 208
+      },
+      {
+        "addr": 33313,
+        "hex": "38 6B 85",
+        "mnemonic": "AND,$856B",
+        "opcode": 56
+      },
+      {
+        "addr": 33316,
+        "hex": "30 A0",
+        "mnemonic": "BMI$81C6",
+        "opcode": 48
+      }
+    ],
+    "dsp_writes": [],
+    "dsp_write_count": 0,
+    "port_comm_count": 1
+  },
+  {
+    "label": "spc_01_intro_end",
+    "reset_vector": 33144,
+    "entry_point": 33144,
+    "code_regions": [],
+    "subroutines": [
+      {
+        "addr": 5,
+        "num_instructions": 93,
+        "has_ret": false,
+        "first_instructions": [
+          "$0005: 00           NOP",
+          "$0006: 22 8E 7E     SET1$7E8E",
+          "$0009: 67           CMP A,(X+)",
+          "$000A: 00           NOP",
+          "$000B: 7E 00        CMP Y,$00",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP",
+          "$000F: 00           NOP",
+          "$0010: 02 EE 80     SET1$80EE",
+          "$0013: 83 40 3B 7E  BBS$40,$3B"
+        ]
+      },
+      {
+        "addr": 8,
+        "num_instructions": 93,
+        "has_ret": false,
+        "first_instructions": [
+          "$0008: 7E 67        CMP Y,$67",
+          "$000A: 00           NOP",
+          "$000B: 7E 00        CMP Y,$00",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP",
+          "$000F: 00           NOP",
+          "$0010: 02 EE 80     SET1$80EE",
+          "$0013: 83 40 3B 7E  BBS$40,$3B",
+          "$0017: 80           SETC",
+          "$0018: 3B 7E        ROL$7E"
+        ]
+      },
+      {
+        "addr": 67,
+        "num_instructions": 92,
+        "has_ret": true,
+        "first_instructions": [
+          "$0043: 20           CLRP",
+          "$0044: 03 80 83 19  BBS$80,$83",
+          "$0048: AE           POP A",
+          "$0049: 7E D9        CMP Y,$D9",
+          "$004B: 92 7E D9     CLR1$D97E",
+          "$004E: A1 7E        TCALL$7E",
+          "$0050: 00           NOP",
+          "$0051: 04 00        OR A,$00",
+          "$0053: 01 07        TCALL$07",
+          "$0055: 06           OR A,(X)"
+        ]
+      },
+      {
+        "addr": 129,
+        "num_instructions": 96,
+        "has_ret": true,
+        "first_instructions": [
+          "$0081: 00           NOP",
+          "$0082: 00           NOP",
+          "$0083: 81 0F        TCALL$0F",
+          "$0085: 0F           BRK",
+          "$0086: 03 17 04 00  BBS$17,$04",
+          "$008A: 00           NOP",
+          "$008B: 09           OR (X),(Y)",
+          "$008C: 31 39        TCALL$39",
+          "$008E: 59           EOR (X),(Y)",
+          "$008F: 00           NOP"
+        ]
+      },
+      {
+        "addr": 133,
+        "num_instructions": 95,
+        "has_ret": true,
+        "first_instructions": [
+          "$0085: 0F           BRK",
+          "$0086: 03 17 04 00  BBS$17,$04",
+          "$008A: 00           NOP",
+          "$008B: 09           OR (X),(Y)",
+          "$008C: 31 39        TCALL$39",
+          "$008E: 59           EOR (X),(Y)",
+          "$008F: 00           NOP",
+          "$0090: 00           NOP",
+          "$0091: 44 20        EOR A,$20",
+          "$0093: 00           NOP"
+        ]
+      },
+      {
+        "addr": 153,
+        "num_instructions": 92,
+        "has_ret": true,
+        "first_instructions": [
+          "$0099: 00           NOP",
+          "$009A: 00           NOP",
+          "$009B: 00           NOP",
+          "$009C: 00           NOP",
+          "$009D: 00           NOP",
+          "$009E: 20           CLRP",
+          "$009F: 00           NOP",
+          "$00A0: B0 00        BCS$00A2",
+          "$00A2: 86           ADC A,(X)",
+          "$00A3: 73 E0 E0 E0  BBC$E0,$E0"
+        ]
+      },
+      {
+        "addr": 189,
+        "num_instructions": 88,
+        "has_ret": false,
+        "first_instructions": [
+          "$00BD: 00           NOP",
+          "$00BE: 00           NOP",
+          "$00BF: FF           MOV A,(X)+",
+          "$00C0: FF           MOV A,(X)+",
+          "$00C1: 00           NOP",
+          "$00C2: 54 00        EOR A,$00",
+          "$00C4: 00           NOP",
+          "$00C5: 00           NOP",
+          "$00C6: 00           NOP",
+          "$00C7: 00           NOP"
+        ]
+      }
+    ],
+    "instruction_count": 279,
+    "entry_disasm": [
+      {
+        "addr": 33144,
+        "hex": "08 C2",
+        "mnemonic": "OR A,##$C2",
+        "opcode": 8
+      },
+      {
+        "addr": 33146,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33147,
+        "hex": "C2 10 48",
+        "mnemonic": "SET1$4810",
+        "opcode": 194
+      },
+      {
+        "addr": 33150,
+        "hex": "8B 0B",
+        "mnemonic": "DEC$0B",
+        "opcode": 139
+      },
+      {
+        "addr": 33152,
+        "hex": "DA 5A",
+        "mnemonic": "MOVW $5A",
+        "opcode": 218
+      },
+      {
+        "addr": 33154,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33155,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33156,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33157,
+        "hex": "5B E2",
+        "mnemonic": "LSR$E2",
+        "opcode": 91
+      },
+      {
+        "addr": 33159,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33160,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33161,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33162,
+        "hex": "48 AB",
+        "mnemonic": "EOR A,##$AB",
+        "opcode": 72
+      },
+      {
+        "addr": 33164,
+        "hex": "5C",
+        "mnemonic": "LSR",
+        "opcode": 92
+      },
+      {
+        "addr": 33165,
+        "hex": "90 81",
+        "mnemonic": "BCC$8110",
+        "opcode": 144
+      },
+      {
+        "addr": 33167,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33168,
+        "hex": "AD 11",
+        "mnemonic": "MOV A,##$11",
+        "opcode": 173
+      },
+      {
+        "addr": 33170,
+        "hex": "42 A5 58",
+        "mnemonic": "SET1$58A5",
+        "opcode": 66
+      },
+      {
+        "addr": 33173,
+        "hex": "F0 0F",
+        "mnemonic": "BEQ$81A6",
+        "opcode": 240
+      },
+      {
+        "addr": 33175,
+        "hex": "4B F4",
+        "mnemonic": "LSR$F4",
+        "opcode": 75
+      },
+      {
+        "addr": 33177,
+        "hex": "A5 81",
+        "mnemonic": "SBC A,$81",
+        "opcode": 165
+      },
+      {
+        "addr": 33179,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33180,
+        "hex": "61 BD",
+        "mnemonic": "TCALL$BD",
+        "opcode": 97
+      },
+      {
+        "addr": 33182,
+        "hex": "02 F5 48",
+        "mnemonic": "SET1$48F5",
+        "opcode": 2
+      },
+      {
+        "addr": 33185,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33186,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33187,
+        "hex": "F5 5A",
+        "mnemonic": "MOV A,$5A",
+        "opcode": 245
+      },
+      {
+        "addr": 33189,
+        "hex": "6B 7A",
+        "mnemonic": "ROR$7A",
+        "opcode": 107
+      },
+      {
+        "addr": 33191,
+        "hex": "FA 2B AB",
+        "mnemonic": "MOV $AB2B",
+        "opcode": 250
+      },
+      {
+        "addr": 33194,
+        "hex": "C2 20 68",
+        "mnemonic": "SET1$6820",
+        "opcode": 194
+      },
+      {
+        "addr": 33197,
+        "hex": "28 40",
+        "mnemonic": "AND A,##$40",
+        "opcode": 40
+      },
+      {
+        "addr": 33199,
+        "hex": "64 52",
+        "mnemonic": "CMP A,$52",
+        "opcode": 100
+      },
+      {
+        "addr": 33201,
+        "hex": "E6",
+        "mnemonic": "MOV A,(X)",
+        "opcode": 230
+      },
+      {
+        "addr": 33202,
+        "hex": "53 22 D4 81",
+        "mnemonic": "BBC$22,$D4",
+        "opcode": 83
+      },
+      {
+        "addr": 33206,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33207,
+        "hex": "A5 52",
+        "mnemonic": "SBC A,$52",
+        "opcode": 165
+      },
+      {
+        "addr": 33209,
+        "hex": "F0 F8",
+        "mnemonic": "BEQ$81B3",
+        "opcode": 240
+      },
+      {
+        "addr": 33211,
+        "hex": "64 53",
+        "mnemonic": "CMP A,$53",
+        "opcode": 100
+      },
+      {
+        "addr": 33213,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33215,
+        "hex": "C5 5C",
+        "mnemonic": "MOV A,$5C",
+        "opcode": 197
+      },
+      {
+        "addr": 33217,
+        "hex": "B0 0E",
+        "mnemonic": "BCS$81D1",
+        "opcode": 176
+      },
+      {
+        "addr": 33219,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33221,
+        "hex": "48 22",
+        "mnemonic": "EOR A,##$22",
+        "opcode": 72
+      },
+      {
+        "addr": 33223,
+        "hex": "D4 81",
+        "mnemonic": "MOV A,$81",
+        "opcode": 212
+      },
+      {
+        "addr": 33225,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33226,
+        "hex": "68 C5",
+        "mnemonic": "CMP A,##$C5",
+        "opcode": 104
+      },
+      {
+        "addr": 33228,
+        "hex": "5B F0",
+        "mnemonic": "LSR$F0",
+        "opcode": 91
+      },
+      {
+        "addr": 33230,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33231,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33232,
+        "hex": "EC 64",
+        "mnemonic": "MOV $64",
+        "opcode": 236
+      },
+      {
+        "addr": 33234,
+        "hex": "5B 6B",
+        "mnemonic": "LSR$6B",
+        "opcode": 91
+      },
+      {
+        "addr": 33236,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33237,
+        "hex": "67",
+        "mnemonic": "CMP A,(X+)",
+        "opcode": 103
+      },
+      {
+        "addr": 33238,
+        "hex": "BD",
+        "mnemonic": "MOV SP,X",
+        "opcode": 189
+      },
+      {
+        "addr": 33239,
+        "hex": "C2 F6 48",
+        "mnemonic": "SET1$48F6",
+        "opcode": 194
+      },
+      {
+        "addr": 33242,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33243,
+        "hex": "C0",
+        "mnemonic": "DI",
+        "opcode": 192
+      },
+      {
+        "addr": 33244,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33245,
+        "hex": "5A 6B",
+        "mnemonic": "ADDW YA,$6B",
+        "opcode": 90
+      },
+      {
+        "addr": 33247,
+        "hex": "FF",
+        "mnemonic": "MOV A,(X)+",
+        "opcode": 255
+      },
+      {
+        "addr": 33248,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33249,
+        "hex": "64 54",
+        "mnemonic": "CMP A,$54",
+        "opcode": 100
+      },
+      {
+        "addr": 33251,
+        "hex": "64 55",
+        "mnemonic": "CMP A,$55",
+        "opcode": 100
+      },
+      {
+        "addr": 33253,
+        "hex": "64 56",
+        "mnemonic": "CMP A,$56",
+        "opcode": 100
+      },
+      {
+        "addr": 33255,
+        "hex": "A2 02 00",
+        "mnemonic": "SET1$0002",
+        "opcode": 162
+      },
+      {
+        "addr": 33258,
+        "hex": "8E",
+        "mnemonic": "POP PSW",
+        "opcode": 142
+      },
+      {
+        "addr": 33259,
+        "hex": "32 0A 8E",
+        "mnemonic": "CLR1$8E0A",
+        "opcode": 50
+      },
+      {
+        "addr": 33262,
+        "hex": "36",
+        "mnemonic": "AND A,(X+)",
+        "opcode": 54
+      },
+      {
+        "addr": 33263,
+        "hex": "0A 9C 3A",
+        "mnemonic": "OR1 C,$3A9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33266,
+        "hex": "0A 9C 3B",
+        "mnemonic": "OR1 C,$3B9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33269,
+        "hex": "0A 60 20",
+        "mnemonic": "OR1 C,$2060",
+        "opcode": 10
+      },
+      {
+        "addr": 33272,
+        "hex": "E1 81",
+        "mnemonic": "TCALL$81",
+        "opcode": 225
+      },
+      {
+        "addr": 33274,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33275,
+        "hex": "07",
+        "mnemonic": "OR A,(X+)",
+        "opcode": 7
+      },
+      {
+        "addr": 33276,
+        "hex": "04 54",
+        "mnemonic": "OR A,$54",
+        "opcode": 4
+      },
+      {
+        "addr": 33278,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33279,
+        "hex": "06",
+        "mnemonic": "OR A,(X)",
+        "opcode": 6
+      },
+      {
+        "addr": 33280,
+        "hex": "04 55",
+        "mnemonic": "OR A,$55",
+        "opcode": 4
+      },
+      {
+        "addr": 33282,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33283,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33284,
+        "hex": "8D 4B",
+        "mnemonic": "MOV Y,##$4B",
+        "opcode": 141
+      },
+      {
+        "addr": 33286,
+        "hex": "04 A9",
+        "mnemonic": "OR A,$A9",
+        "opcode": 4
+      },
+      {
+        "addr": 33288,
+        "hex": "04 8D",
+        "mnemonic": "OR A,$8D",
+        "opcode": 4
+      },
+      {
+        "addr": 33290,
+        "hex": "4C 04",
+        "mnemonic": "LSR$04",
+        "opcode": 76
+      },
+      {
+        "addr": 33292,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33293,
+        "hex": "08 8D",
+        "mnemonic": "OR A,##$8D",
+        "opcode": 8
+      },
+      {
+        "addr": 33295,
+        "hex": "4D",
+        "mnemonic": "PUSH X",
+        "opcode": 77
+      },
+      {
+        "addr": 33296,
+        "hex": "04 6B",
+        "mnemonic": "OR A,$6B",
+        "opcode": 4
+      },
+      {
+        "addr": 33298,
+        "hex": "86",
+        "mnemonic": "ADC A,(X)",
+        "opcode": 134
+      },
+      {
+        "addr": 33299,
+        "hex": "44 85",
+        "mnemonic": "EOR A,$85",
+        "opcode": 68
+      },
+      {
+        "addr": 33301,
+        "hex": "46",
+        "mnemonic": "EOR A,(X)",
+        "opcode": 70
+      },
+      {
+        "addr": 33302,
+        "hex": "EB 85 31",
+        "mnemonic": "MOV $3185",
+        "opcode": 235
+      },
+      {
+        "addr": 33305,
+        "hex": "A5 54",
+        "mnemonic": "SBC A,$54",
+        "opcode": 165
+      },
+      {
+        "addr": 33307,
+        "hex": "29",
+        "mnemonic": "AND (X),(Y)",
+        "opcode": 41
+      },
+      {
+        "addr": 33308,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33309,
+        "hex": "C9",
+        "mnemonic": "MOV (X),(Y)",
+        "opcode": 201
+      },
+      {
+        "addr": 33310,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33311,
+        "hex": "D0 02",
+        "mnemonic": "BNE$8223",
+        "opcode": 208
+      },
+      {
+        "addr": 33313,
+        "hex": "38 6B 85",
+        "mnemonic": "AND,$856B",
+        "opcode": 56
+      },
+      {
+        "addr": 33316,
+        "hex": "30 A0",
+        "mnemonic": "BMI$81C6",
+        "opcode": 48
+      }
+    ],
+    "dsp_writes": [],
+    "dsp_write_count": 0,
+    "port_comm_count": 1
+  },
+  {
+    "label": "spc_02_town",
+    "reset_vector": 33144,
+    "entry_point": 33144,
+    "code_regions": [],
+    "subroutines": [
+      {
+        "addr": 5,
+        "num_instructions": 89,
+        "has_ret": false,
+        "first_instructions": [
+          "$0005: 00           NOP",
+          "$0006: 22 8E 7E     SET1$7E8E",
+          "$0009: 67           CMP A,(X+)",
+          "$000A: 00           NOP",
+          "$000B: 7E 00        CMP Y,$00",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP",
+          "$000F: 00           NOP",
+          "$0010: 02 EE 80     SET1$80EE",
+          "$0013: 83 40 3B 7E  BBS$40,$3B"
+        ]
+      },
+      {
+        "addr": 8,
+        "num_instructions": 89,
+        "has_ret": false,
+        "first_instructions": [
+          "$0008: 7E 67        CMP Y,$67",
+          "$000A: 00           NOP",
+          "$000B: 7E 00        CMP Y,$00",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP",
+          "$000F: 00           NOP",
+          "$0010: 02 EE 80     SET1$80EE",
+          "$0013: 83 40 3B 7E  BBS$40,$3B",
+          "$0017: 80           SETC",
+          "$0018: 3B 7E        ROL$7E"
+        ]
+      },
+      {
+        "addr": 67,
+        "num_instructions": 84,
+        "has_ret": true,
+        "first_instructions": [
+          "$0043: 20           CLRP",
+          "$0044: 03 80 83 15  BBS$80,$83",
+          "$0048: 04 7F        OR A,$7F",
+          "$004A: 08 82        OR A,##$82",
+          "$004C: A0           EI",
+          "$004D: E1 00        TCALL$00",
+          "$004F: 7E 00        CMP Y,$00",
+          "$0051: 04 00        OR A,$00",
+          "$0053: 01 07        TCALL$07",
+          "$0055: 06           OR A,(X)"
+        ]
+      },
+      {
+        "addr": 129,
+        "num_instructions": 94,
+        "has_ret": true,
+        "first_instructions": [
+          "$0081: 00           NOP",
+          "$0082: 00           NOP",
+          "$0083: 81 0F        TCALL$0F",
+          "$0085: 0F           BRK",
+          "$0086: 03 17 04 00  BBS$17,$04",
+          "$008A: 00           NOP",
+          "$008B: 09           OR (X),(Y)",
+          "$008C: 31 39        TCALL$39",
+          "$008E: 59           EOR (X),(Y)",
+          "$008F: 00           NOP"
+        ]
+      },
+      {
+        "addr": 133,
+        "num_instructions": 93,
+        "has_ret": true,
+        "first_instructions": [
+          "$0085: 0F           BRK",
+          "$0086: 03 17 04 00  BBS$17,$04",
+          "$008A: 00           NOP",
+          "$008B: 09           OR (X),(Y)",
+          "$008C: 31 39        TCALL$39",
+          "$008E: 59           EOR (X),(Y)",
+          "$008F: 00           NOP",
+          "$0090: 00           NOP",
+          "$0091: 44 98        EOR A,$98",
+          "$0093: 00           NOP"
+        ]
+      },
+      {
+        "addr": 153,
+        "num_instructions": 91,
+        "has_ret": true,
+        "first_instructions": [
+          "$0099: 00           NOP",
+          "$009A: 98 00 B0     ADC,$B000",
+          "$009D: 00           NOP",
+          "$009E: 98 00 B0     ADC,$B000",
+          "$00A1: 00           NOP",
+          "$00A2: 86           ADC A,(X)",
+          "$00A3: 73 E0 E0 E0  BBC$E0,$E0",
+          "$00A7: 79           CMP (X),(Y)",
+          "$00A8: 67           CMP A,(X+)",
+          "$00A9: 00           NOP"
+        ]
+      },
+      {
+        "addr": 189,
+        "num_instructions": 89,
+        "has_ret": false,
+        "first_instructions": [
+          "$00BD: 00           NOP",
+          "$00BE: 00           NOP",
+          "$00BF: FF           MOV A,(X)+",
+          "$00C0: FF           MOV A,(X)+",
+          "$00C1: 00           NOP",
+          "$00C2: 54 00        EOR A,$00",
+          "$00C4: 00           NOP",
+          "$00C5: 00           NOP",
+          "$00C6: 00           NOP",
+          "$00C7: 00           NOP"
+        ]
+      }
+    ],
+    "instruction_count": 279,
+    "entry_disasm": [
+      {
+        "addr": 33144,
+        "hex": "08 C2",
+        "mnemonic": "OR A,##$C2",
+        "opcode": 8
+      },
+      {
+        "addr": 33146,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33147,
+        "hex": "C2 10 48",
+        "mnemonic": "SET1$4810",
+        "opcode": 194
+      },
+      {
+        "addr": 33150,
+        "hex": "8B 0B",
+        "mnemonic": "DEC$0B",
+        "opcode": 139
+      },
+      {
+        "addr": 33152,
+        "hex": "DA 5A",
+        "mnemonic": "MOVW $5A",
+        "opcode": 218
+      },
+      {
+        "addr": 33154,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33155,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33156,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33157,
+        "hex": "5B E2",
+        "mnemonic": "LSR$E2",
+        "opcode": 91
+      },
+      {
+        "addr": 33159,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33160,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33161,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33162,
+        "hex": "48 AB",
+        "mnemonic": "EOR A,##$AB",
+        "opcode": 72
+      },
+      {
+        "addr": 33164,
+        "hex": "5C",
+        "mnemonic": "LSR",
+        "opcode": 92
+      },
+      {
+        "addr": 33165,
+        "hex": "90 81",
+        "mnemonic": "BCC$8110",
+        "opcode": 144
+      },
+      {
+        "addr": 33167,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33168,
+        "hex": "AD 11",
+        "mnemonic": "MOV A,##$11",
+        "opcode": 173
+      },
+      {
+        "addr": 33170,
+        "hex": "42 A5 58",
+        "mnemonic": "SET1$58A5",
+        "opcode": 66
+      },
+      {
+        "addr": 33173,
+        "hex": "F0 0F",
+        "mnemonic": "BEQ$81A6",
+        "opcode": 240
+      },
+      {
+        "addr": 33175,
+        "hex": "4B F4",
+        "mnemonic": "LSR$F4",
+        "opcode": 75
+      },
+      {
+        "addr": 33177,
+        "hex": "A5 81",
+        "mnemonic": "SBC A,$81",
+        "opcode": 165
+      },
+      {
+        "addr": 33179,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33180,
+        "hex": "61 BD",
+        "mnemonic": "TCALL$BD",
+        "opcode": 97
+      },
+      {
+        "addr": 33182,
+        "hex": "02 F5 48",
+        "mnemonic": "SET1$48F5",
+        "opcode": 2
+      },
+      {
+        "addr": 33185,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33186,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33187,
+        "hex": "F5 5A",
+        "mnemonic": "MOV A,$5A",
+        "opcode": 245
+      },
+      {
+        "addr": 33189,
+        "hex": "6B 7A",
+        "mnemonic": "ROR$7A",
+        "opcode": 107
+      },
+      {
+        "addr": 33191,
+        "hex": "FA 2B AB",
+        "mnemonic": "MOV $AB2B",
+        "opcode": 250
+      },
+      {
+        "addr": 33194,
+        "hex": "C2 20 68",
+        "mnemonic": "SET1$6820",
+        "opcode": 194
+      },
+      {
+        "addr": 33197,
+        "hex": "28 40",
+        "mnemonic": "AND A,##$40",
+        "opcode": 40
+      },
+      {
+        "addr": 33199,
+        "hex": "64 52",
+        "mnemonic": "CMP A,$52",
+        "opcode": 100
+      },
+      {
+        "addr": 33201,
+        "hex": "E6",
+        "mnemonic": "MOV A,(X)",
+        "opcode": 230
+      },
+      {
+        "addr": 33202,
+        "hex": "53 22 D4 81",
+        "mnemonic": "BBC$22,$D4",
+        "opcode": 83
+      },
+      {
+        "addr": 33206,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33207,
+        "hex": "A5 52",
+        "mnemonic": "SBC A,$52",
+        "opcode": 165
+      },
+      {
+        "addr": 33209,
+        "hex": "F0 F8",
+        "mnemonic": "BEQ$81B3",
+        "opcode": 240
+      },
+      {
+        "addr": 33211,
+        "hex": "64 53",
+        "mnemonic": "CMP A,$53",
+        "opcode": 100
+      },
+      {
+        "addr": 33213,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33215,
+        "hex": "C5 5C",
+        "mnemonic": "MOV A,$5C",
+        "opcode": 197
+      },
+      {
+        "addr": 33217,
+        "hex": "B0 0E",
+        "mnemonic": "BCS$81D1",
+        "opcode": 176
+      },
+      {
+        "addr": 33219,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33221,
+        "hex": "48 22",
+        "mnemonic": "EOR A,##$22",
+        "opcode": 72
+      },
+      {
+        "addr": 33223,
+        "hex": "D4 81",
+        "mnemonic": "MOV A,$81",
+        "opcode": 212
+      },
+      {
+        "addr": 33225,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33226,
+        "hex": "68 C5",
+        "mnemonic": "CMP A,##$C5",
+        "opcode": 104
+      },
+      {
+        "addr": 33228,
+        "hex": "5B F0",
+        "mnemonic": "LSR$F0",
+        "opcode": 91
+      },
+      {
+        "addr": 33230,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33231,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33232,
+        "hex": "EC 64",
+        "mnemonic": "MOV $64",
+        "opcode": 236
+      },
+      {
+        "addr": 33234,
+        "hex": "5B 6B",
+        "mnemonic": "LSR$6B",
+        "opcode": 91
+      },
+      {
+        "addr": 33236,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33237,
+        "hex": "67",
+        "mnemonic": "CMP A,(X+)",
+        "opcode": 103
+      },
+      {
+        "addr": 33238,
+        "hex": "BD",
+        "mnemonic": "MOV SP,X",
+        "opcode": 189
+      },
+      {
+        "addr": 33239,
+        "hex": "C2 F6 48",
+        "mnemonic": "SET1$48F6",
+        "opcode": 194
+      },
+      {
+        "addr": 33242,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33243,
+        "hex": "C0",
+        "mnemonic": "DI",
+        "opcode": 192
+      },
+      {
+        "addr": 33244,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33245,
+        "hex": "5A 6B",
+        "mnemonic": "ADDW YA,$6B",
+        "opcode": 90
+      },
+      {
+        "addr": 33247,
+        "hex": "FF",
+        "mnemonic": "MOV A,(X)+",
+        "opcode": 255
+      },
+      {
+        "addr": 33248,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33249,
+        "hex": "64 54",
+        "mnemonic": "CMP A,$54",
+        "opcode": 100
+      },
+      {
+        "addr": 33251,
+        "hex": "64 55",
+        "mnemonic": "CMP A,$55",
+        "opcode": 100
+      },
+      {
+        "addr": 33253,
+        "hex": "64 56",
+        "mnemonic": "CMP A,$56",
+        "opcode": 100
+      },
+      {
+        "addr": 33255,
+        "hex": "A2 02 00",
+        "mnemonic": "SET1$0002",
+        "opcode": 162
+      },
+      {
+        "addr": 33258,
+        "hex": "8E",
+        "mnemonic": "POP PSW",
+        "opcode": 142
+      },
+      {
+        "addr": 33259,
+        "hex": "32 0A 8E",
+        "mnemonic": "CLR1$8E0A",
+        "opcode": 50
+      },
+      {
+        "addr": 33262,
+        "hex": "36",
+        "mnemonic": "AND A,(X+)",
+        "opcode": 54
+      },
+      {
+        "addr": 33263,
+        "hex": "0A 9C 3A",
+        "mnemonic": "OR1 C,$3A9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33266,
+        "hex": "0A 9C 3B",
+        "mnemonic": "OR1 C,$3B9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33269,
+        "hex": "0A 60 20",
+        "mnemonic": "OR1 C,$2060",
+        "opcode": 10
+      },
+      {
+        "addr": 33272,
+        "hex": "E1 81",
+        "mnemonic": "TCALL$81",
+        "opcode": 225
+      },
+      {
+        "addr": 33274,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33275,
+        "hex": "07",
+        "mnemonic": "OR A,(X+)",
+        "opcode": 7
+      },
+      {
+        "addr": 33276,
+        "hex": "04 54",
+        "mnemonic": "OR A,$54",
+        "opcode": 4
+      },
+      {
+        "addr": 33278,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33279,
+        "hex": "06",
+        "mnemonic": "OR A,(X)",
+        "opcode": 6
+      },
+      {
+        "addr": 33280,
+        "hex": "04 55",
+        "mnemonic": "OR A,$55",
+        "opcode": 4
+      },
+      {
+        "addr": 33282,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33283,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33284,
+        "hex": "8D 4B",
+        "mnemonic": "MOV Y,##$4B",
+        "opcode": 141
+      },
+      {
+        "addr": 33286,
+        "hex": "04 A9",
+        "mnemonic": "OR A,$A9",
+        "opcode": 4
+      },
+      {
+        "addr": 33288,
+        "hex": "04 8D",
+        "mnemonic": "OR A,$8D",
+        "opcode": 4
+      },
+      {
+        "addr": 33290,
+        "hex": "4C 04",
+        "mnemonic": "LSR$04",
+        "opcode": 76
+      },
+      {
+        "addr": 33292,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33293,
+        "hex": "08 8D",
+        "mnemonic": "OR A,##$8D",
+        "opcode": 8
+      },
+      {
+        "addr": 33295,
+        "hex": "4D",
+        "mnemonic": "PUSH X",
+        "opcode": 77
+      },
+      {
+        "addr": 33296,
+        "hex": "04 6B",
+        "mnemonic": "OR A,$6B",
+        "opcode": 4
+      },
+      {
+        "addr": 33298,
+        "hex": "86",
+        "mnemonic": "ADC A,(X)",
+        "opcode": 134
+      },
+      {
+        "addr": 33299,
+        "hex": "44 85",
+        "mnemonic": "EOR A,$85",
+        "opcode": 68
+      },
+      {
+        "addr": 33301,
+        "hex": "46",
+        "mnemonic": "EOR A,(X)",
+        "opcode": 70
+      },
+      {
+        "addr": 33302,
+        "hex": "EB 85 31",
+        "mnemonic": "MOV $3185",
+        "opcode": 235
+      },
+      {
+        "addr": 33305,
+        "hex": "A5 54",
+        "mnemonic": "SBC A,$54",
+        "opcode": 165
+      },
+      {
+        "addr": 33307,
+        "hex": "29",
+        "mnemonic": "AND (X),(Y)",
+        "opcode": 41
+      },
+      {
+        "addr": 33308,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33309,
+        "hex": "C9",
+        "mnemonic": "MOV (X),(Y)",
+        "opcode": 201
+      },
+      {
+        "addr": 33310,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33311,
+        "hex": "D0 02",
+        "mnemonic": "BNE$8223",
+        "opcode": 208
+      },
+      {
+        "addr": 33313,
+        "hex": "38 6B 85",
+        "mnemonic": "AND,$856B",
+        "opcode": 56
+      },
+      {
+        "addr": 33316,
+        "hex": "30 A0",
+        "mnemonic": "BMI$81C6",
+        "opcode": 48
+      }
+    ],
+    "dsp_writes": [],
+    "dsp_write_count": 0,
+    "port_comm_count": 1
+  },
+  {
+    "label": "spc_03_wm_entry",
+    "reset_vector": 33144,
+    "entry_point": 33144,
+    "code_regions": [],
+    "subroutines": [
+      {
+        "addr": 5,
+        "num_instructions": 91,
+        "has_ret": false,
+        "first_instructions": [
+          "$0005: 00           NOP",
+          "$0006: 22 8E 7E     SET1$7E8E",
+          "$0009: 67           CMP A,(X+)",
+          "$000A: 00           NOP",
+          "$000B: 7E 00        CMP Y,$00",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP",
+          "$000F: 00           NOP",
+          "$0010: 02 EE 80     SET1$80EE",
+          "$0013: 83 40 3B 7E  BBS$40,$3B"
+        ]
+      },
+      {
+        "addr": 8,
+        "num_instructions": 91,
+        "has_ret": false,
+        "first_instructions": [
+          "$0008: 7E 67        CMP Y,$67",
+          "$000A: 00           NOP",
+          "$000B: 7E 00        CMP Y,$00",
+          "$000D: 00           NOP",
+          "$000E: 00           NOP",
+          "$000F: 00           NOP",
+          "$0010: 02 EE 80     SET1$80EE",
+          "$0013: 83 40 3B 7E  BBS$40,$3B",
+          "$0017: 80           SETC",
+          "$0018: 3B 7E        ROL$7E"
+        ]
+      },
+      {
+        "addr": 67,
+        "num_instructions": 83,
+        "has_ret": true,
+        "first_instructions": [
+          "$0043: 20           CLRP",
+          "$0044: 03 80 83 15  BBS$80,$83",
+          "$0048: 04 7F        OR A,$7F",
+          "$004A: 08 82        OR A,##$82",
+          "$004C: A0           EI",
+          "$004D: E1 00        TCALL$00",
+          "$004F: 7E 00        CMP Y,$00",
+          "$0051: 04 00        OR A,$00",
+          "$0053: 01 07        TCALL$07",
+          "$0055: 06           OR A,(X)"
+        ]
+      },
+      {
+        "addr": 129,
+        "num_instructions": 92,
+        "has_ret": true,
+        "first_instructions": [
+          "$0081: 00           NOP",
+          "$0082: 00           NOP",
+          "$0083: 81 0F        TCALL$0F",
+          "$0085: 0F           BRK",
+          "$0086: 03 17 04 00  BBS$17,$04",
+          "$008A: 00           NOP",
+          "$008B: 09           OR (X),(Y)",
+          "$008C: 31 39        TCALL$39",
+          "$008E: 59           EOR (X),(Y)",
+          "$008F: 00           NOP"
+        ]
+      },
+      {
+        "addr": 133,
+        "num_instructions": 91,
+        "has_ret": true,
+        "first_instructions": [
+          "$0085: 0F           BRK",
+          "$0086: 03 17 04 00  BBS$17,$04",
+          "$008A: 00           NOP",
+          "$008B: 09           OR (X),(Y)",
+          "$008C: 31 39        TCALL$39",
+          "$008E: 59           EOR (X),(Y)",
+          "$008F: 00           NOP",
+          "$0090: 00           NOP",
+          "$0091: 44 98        EOR A,$98",
+          "$0093: 00           NOP"
+        ]
+      },
+      {
+        "addr": 153,
+        "num_instructions": 89,
+        "has_ret": true,
+        "first_instructions": [
+          "$0099: 00           NOP",
+          "$009A: 98 00 B0     ADC,$B000",
+          "$009D: 00           NOP",
+          "$009E: 98 00 B0     ADC,$B000",
+          "$00A1: 00           NOP",
+          "$00A2: 86           ADC A,(X)",
+          "$00A3: 73 E0 E0 E0  BBC$E0,$E0",
+          "$00A7: 2E 0D 00     CBNE$000D",
+          "$00AA: 00           NOP",
+          "$00AB: 08 7F        OR A,##$7F"
+        ]
+      },
+      {
+        "addr": 189,
+        "num_instructions": 89,
+        "has_ret": false,
+        "first_instructions": [
+          "$00BD: 00           NOP",
+          "$00BE: 00           NOP",
+          "$00BF: FF           MOV A,(X)+",
+          "$00C0: FF           MOV A,(X)+",
+          "$00C1: 00           NOP",
+          "$00C2: 54 00        EOR A,$00",
+          "$00C4: 00           NOP",
+          "$00C5: 00           NOP",
+          "$00C6: 00           NOP",
+          "$00C7: 00           NOP"
+        ]
+      }
+    ],
+    "instruction_count": 279,
+    "entry_disasm": [
+      {
+        "addr": 33144,
+        "hex": "08 C2",
+        "mnemonic": "OR A,##$C2",
+        "opcode": 8
+      },
+      {
+        "addr": 33146,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33147,
+        "hex": "C2 10 48",
+        "mnemonic": "SET1$4810",
+        "opcode": 194
+      },
+      {
+        "addr": 33150,
+        "hex": "8B 0B",
+        "mnemonic": "DEC$0B",
+        "opcode": 139
+      },
+      {
+        "addr": 33152,
+        "hex": "DA 5A",
+        "mnemonic": "MOVW $5A",
+        "opcode": 218
+      },
+      {
+        "addr": 33154,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33155,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33156,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33157,
+        "hex": "5B E2",
+        "mnemonic": "LSR$E2",
+        "opcode": 91
+      },
+      {
+        "addr": 33159,
+        "hex": "20",
+        "mnemonic": "CLRP",
+        "opcode": 32
+      },
+      {
+        "addr": 33160,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33161,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33162,
+        "hex": "48 AB",
+        "mnemonic": "EOR A,##$AB",
+        "opcode": 72
+      },
+      {
+        "addr": 33164,
+        "hex": "5C",
+        "mnemonic": "LSR",
+        "opcode": 92
+      },
+      {
+        "addr": 33165,
+        "hex": "90 81",
+        "mnemonic": "BCC$8110",
+        "opcode": 144
+      },
+      {
+        "addr": 33167,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33168,
+        "hex": "AD 11",
+        "mnemonic": "MOV A,##$11",
+        "opcode": 173
+      },
+      {
+        "addr": 33170,
+        "hex": "42 A5 58",
+        "mnemonic": "SET1$58A5",
+        "opcode": 66
+      },
+      {
+        "addr": 33173,
+        "hex": "F0 0F",
+        "mnemonic": "BEQ$81A6",
+        "opcode": 240
+      },
+      {
+        "addr": 33175,
+        "hex": "4B F4",
+        "mnemonic": "LSR$F4",
+        "opcode": 75
+      },
+      {
+        "addr": 33177,
+        "hex": "A5 81",
+        "mnemonic": "SBC A,$81",
+        "opcode": 165
+      },
+      {
+        "addr": 33179,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33180,
+        "hex": "61 BD",
+        "mnemonic": "TCALL$BD",
+        "opcode": 97
+      },
+      {
+        "addr": 33182,
+        "hex": "02 F5 48",
+        "mnemonic": "SET1$48F5",
+        "opcode": 2
+      },
+      {
+        "addr": 33185,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33186,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33187,
+        "hex": "F5 5A",
+        "mnemonic": "MOV A,$5A",
+        "opcode": 245
+      },
+      {
+        "addr": 33189,
+        "hex": "6B 7A",
+        "mnemonic": "ROR$7A",
+        "opcode": 107
+      },
+      {
+        "addr": 33191,
+        "hex": "FA 2B AB",
+        "mnemonic": "MOV $AB2B",
+        "opcode": 250
+      },
+      {
+        "addr": 33194,
+        "hex": "C2 20 68",
+        "mnemonic": "SET1$6820",
+        "opcode": 194
+      },
+      {
+        "addr": 33197,
+        "hex": "28 40",
+        "mnemonic": "AND A,##$40",
+        "opcode": 40
+      },
+      {
+        "addr": 33199,
+        "hex": "64 52",
+        "mnemonic": "CMP A,$52",
+        "opcode": 100
+      },
+      {
+        "addr": 33201,
+        "hex": "E6",
+        "mnemonic": "MOV A,(X)",
+        "opcode": 230
+      },
+      {
+        "addr": 33202,
+        "hex": "53 22 D4 81",
+        "mnemonic": "BBC$22,$D4",
+        "opcode": 83
+      },
+      {
+        "addr": 33206,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33207,
+        "hex": "A5 52",
+        "mnemonic": "SBC A,$52",
+        "opcode": 165
+      },
+      {
+        "addr": 33209,
+        "hex": "F0 F8",
+        "mnemonic": "BEQ$81B3",
+        "opcode": 240
+      },
+      {
+        "addr": 33211,
+        "hex": "64 53",
+        "mnemonic": "CMP A,$53",
+        "opcode": 100
+      },
+      {
+        "addr": 33213,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33215,
+        "hex": "C5 5C",
+        "mnemonic": "MOV A,$5C",
+        "opcode": 197
+      },
+      {
+        "addr": 33217,
+        "hex": "B0 0E",
+        "mnemonic": "BCS$81D1",
+        "opcode": 176
+      },
+      {
+        "addr": 33219,
+        "hex": "A5 5B",
+        "mnemonic": "SBC A,$5B",
+        "opcode": 165
+      },
+      {
+        "addr": 33221,
+        "hex": "48 22",
+        "mnemonic": "EOR A,##$22",
+        "opcode": 72
+      },
+      {
+        "addr": 33223,
+        "hex": "D4 81",
+        "mnemonic": "MOV A,$81",
+        "opcode": 212
+      },
+      {
+        "addr": 33225,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33226,
+        "hex": "68 C5",
+        "mnemonic": "CMP A,##$C5",
+        "opcode": 104
+      },
+      {
+        "addr": 33228,
+        "hex": "5B F0",
+        "mnemonic": "LSR$F0",
+        "opcode": 91
+      },
+      {
+        "addr": 33230,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33231,
+        "hex": "80",
+        "mnemonic": "SETC",
+        "opcode": 128
+      },
+      {
+        "addr": 33232,
+        "hex": "EC 64",
+        "mnemonic": "MOV $64",
+        "opcode": 236
+      },
+      {
+        "addr": 33234,
+        "hex": "5B 6B",
+        "mnemonic": "LSR$6B",
+        "opcode": 91
+      },
+      {
+        "addr": 33236,
+        "hex": "A6",
+        "mnemonic": "SBC A,(X)",
+        "opcode": 166
+      },
+      {
+        "addr": 33237,
+        "hex": "67",
+        "mnemonic": "CMP A,(X+)",
+        "opcode": 103
+      },
+      {
+        "addr": 33238,
+        "hex": "BD",
+        "mnemonic": "MOV SP,X",
+        "opcode": 189
+      },
+      {
+        "addr": 33239,
+        "hex": "C2 F6 48",
+        "mnemonic": "SET1$48F6",
+        "opcode": 194
+      },
+      {
+        "addr": 33242,
+        "hex": "BC",
+        "mnemonic": "INC",
+        "opcode": 188
+      },
+      {
+        "addr": 33243,
+        "hex": "C0",
+        "mnemonic": "DI",
+        "opcode": 192
+      },
+      {
+        "addr": 33244,
+        "hex": "F6",
+        "mnemonic": "MOV A,(X+)",
+        "opcode": 246
+      },
+      {
+        "addr": 33245,
+        "hex": "5A 6B",
+        "mnemonic": "ADDW YA,$6B",
+        "opcode": 90
+      },
+      {
+        "addr": 33247,
+        "hex": "FF",
+        "mnemonic": "MOV A,(X)+",
+        "opcode": 255
+      },
+      {
+        "addr": 33248,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33249,
+        "hex": "64 54",
+        "mnemonic": "CMP A,$54",
+        "opcode": 100
+      },
+      {
+        "addr": 33251,
+        "hex": "64 55",
+        "mnemonic": "CMP A,$55",
+        "opcode": 100
+      },
+      {
+        "addr": 33253,
+        "hex": "64 56",
+        "mnemonic": "CMP A,$56",
+        "opcode": 100
+      },
+      {
+        "addr": 33255,
+        "hex": "A2 02 00",
+        "mnemonic": "SET1$0002",
+        "opcode": 162
+      },
+      {
+        "addr": 33258,
+        "hex": "8E",
+        "mnemonic": "POP PSW",
+        "opcode": 142
+      },
+      {
+        "addr": 33259,
+        "hex": "32 0A 8E",
+        "mnemonic": "CLR1$8E0A",
+        "opcode": 50
+      },
+      {
+        "addr": 33262,
+        "hex": "36",
+        "mnemonic": "AND A,(X+)",
+        "opcode": 54
+      },
+      {
+        "addr": 33263,
+        "hex": "0A 9C 3A",
+        "mnemonic": "OR1 C,$3A9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33266,
+        "hex": "0A 9C 3B",
+        "mnemonic": "OR1 C,$3B9C",
+        "opcode": 10
+      },
+      {
+        "addr": 33269,
+        "hex": "0A 60 20",
+        "mnemonic": "OR1 C,$2060",
+        "opcode": 10
+      },
+      {
+        "addr": 33272,
+        "hex": "E1 81",
+        "mnemonic": "TCALL$81",
+        "opcode": 225
+      },
+      {
+        "addr": 33274,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33275,
+        "hex": "07",
+        "mnemonic": "OR A,(X+)",
+        "opcode": 7
+      },
+      {
+        "addr": 33276,
+        "hex": "04 54",
+        "mnemonic": "OR A,$54",
+        "opcode": 4
+      },
+      {
+        "addr": 33278,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33279,
+        "hex": "06",
+        "mnemonic": "OR A,(X)",
+        "opcode": 6
+      },
+      {
+        "addr": 33280,
+        "hex": "04 55",
+        "mnemonic": "OR A,$55",
+        "opcode": 4
+      },
+      {
+        "addr": 33282,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33283,
+        "hex": "00",
+        "mnemonic": "NOP",
+        "opcode": 0
+      },
+      {
+        "addr": 33284,
+        "hex": "8D 4B",
+        "mnemonic": "MOV Y,##$4B",
+        "opcode": 141
+      },
+      {
+        "addr": 33286,
+        "hex": "04 A9",
+        "mnemonic": "OR A,$A9",
+        "opcode": 4
+      },
+      {
+        "addr": 33288,
+        "hex": "04 8D",
+        "mnemonic": "OR A,$8D",
+        "opcode": 4
+      },
+      {
+        "addr": 33290,
+        "hex": "4C 04",
+        "mnemonic": "LSR$04",
+        "opcode": 76
+      },
+      {
+        "addr": 33292,
+        "hex": "A9",
+        "mnemonic": "SBC (X),(Y)",
+        "opcode": 169
+      },
+      {
+        "addr": 33293,
+        "hex": "08 8D",
+        "mnemonic": "OR A,##$8D",
+        "opcode": 8
+      },
+      {
+        "addr": 33295,
+        "hex": "4D",
+        "mnemonic": "PUSH X",
+        "opcode": 77
+      },
+      {
+        "addr": 33296,
+        "hex": "04 6B",
+        "mnemonic": "OR A,$6B",
+        "opcode": 4
+      },
+      {
+        "addr": 33298,
+        "hex": "86",
+        "mnemonic": "ADC A,(X)",
+        "opcode": 134
+      },
+      {
+        "addr": 33299,
+        "hex": "44 85",
+        "mnemonic": "EOR A,$85",
+        "opcode": 68
+      },
+      {
+        "addr": 33301,
+        "hex": "46",
+        "mnemonic": "EOR A,(X)",
+        "opcode": 70
+      },
+      {
+        "addr": 33302,
+        "hex": "EB 85 31",
+        "mnemonic": "MOV $3185",
+        "opcode": 235
+      },
+      {
+        "addr": 33305,
+        "hex": "A5 54",
+        "mnemonic": "SBC A,$54",
+        "opcode": 165
+      },
+      {
+        "addr": 33307,
+        "hex": "29",
+        "mnemonic": "AND (X),(Y)",
+        "opcode": 41
+      },
+      {
+        "addr": 33308,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33309,
+        "hex": "C9",
+        "mnemonic": "MOV (X),(Y)",
+        "opcode": 201
+      },
+      {
+        "addr": 33310,
+        "hex": "FE",
+        "mnemonic": "DEC Y",
+        "opcode": 254
+      },
+      {
+        "addr": 33311,
+        "hex": "D0 02",
+        "mnemonic": "BNE$8223",
+        "opcode": 208
+      },
+      {
+        "addr": 33313,
+        "hex": "38 6B 85",
+        "mnemonic": "AND,$856B",
+        "opcode": 56
+      },
+      {
+        "addr": 33316,
+        "hex": "30 A0",
+        "mnemonic": "BMI$81C6",
+        "opcode": 48
+      }
+    ],
+    "dsp_writes": [],
+    "dsp_write_count": 0,
+    "port_comm_count": 1
+  }
+]

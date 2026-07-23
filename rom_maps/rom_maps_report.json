@@ -1,0 +1,1420 @@
+{
+  "summary": {
+    "total_tilemaps": 121,
+    "total_data_blocks": 180,
+    "large_blocks": 52,
+    "medium_blocks": 128,
+    "rendered_images": 30
+  },
+  "tilemaps": [
+    {
+      "offset": 521728,
+      "bank": 15,
+      "entries": 1024,
+      "map_size": "32x32",
+      "unique_tiles": 6,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x1",
+        "0x1",
+        "0x1",
+        "0x2",
+        "0x2"
+      ],
+      "size_bytes": 2048
+    },
+    {
+      "offset": 1481446,
+      "bank": 45,
+      "entries": 860,
+      "map_size": "32x16",
+      "unique_tiles": 16,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x82f",
+        "0x83f",
+        "0x804",
+        "0x807",
+        "0x828",
+        "0x837",
+        "0x824",
+        "0x813"
+      ],
+      "size_bytes": 1720
+    },
+    {
+      "offset": 688640,
+      "bank": 21,
+      "entries": 640,
+      "map_size": "32x16",
+      "unique_tiles": 14,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0x827",
+        "0x828",
+        "0xc1d",
+        "0xc1e",
+        "0xc1f",
+        "0x830",
+        "0xc79",
+        "0xc7a"
+      ],
+      "size_bytes": 1280
+    },
+    {
+      "offset": 1478474,
+      "bank": 45,
+      "entries": 368,
+      "map_size": "16x16",
+      "unique_tiles": 13,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x1548",
+        "0x1574",
+        "0x813",
+        "0x816",
+        "0x836",
+        "0x821",
+        "0x831",
+        "0x821"
+      ],
+      "size_bytes": 736
+    },
+    {
+      "offset": 1479410,
+      "bank": 45,
+      "entries": 309,
+      "map_size": "16x16",
+      "unique_tiles": 12,
+      "palette_groups": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "first_entries": [
+        "0x815",
+        "0x815",
+        "0x835",
+        "0x835",
+        "0x81e",
+        "0x480f",
+        "0x350c",
+        "0x3519"
+      ],
+      "size_bytes": 618
+    },
+    {
+      "offset": 1484538,
+      "bank": 45,
+      "entries": 282,
+      "map_size": "16x16",
+      "unique_tiles": 9,
+      "palette_groups": [
+        1
+      ],
+      "first_entries": [
+        "0x1547",
+        "0x11da",
+        "0x11c5",
+        "0x1558",
+        "0x1548",
+        "0x1558",
+        "0x1548",
+        "0x1540"
+      ],
+      "size_bytes": 564
+    },
+    {
+      "offset": 1480332,
+      "bank": 45,
+      "entries": 272,
+      "map_size": "16x16",
+      "unique_tiles": 14,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x1510",
+        "0x819",
+        "0x839",
+        "0x835",
+        "0x83e",
+        "0x82e",
+        "0x84b",
+        "0x85b"
+      ],
+      "size_bytes": 544
+    },
+    {
+      "offset": 1213066,
+      "bank": 37,
+      "entries": 251,
+      "map_size": "16x8",
+      "unique_tiles": 11,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x1575",
+        "0x1589",
+        "0x1599",
+        "0x154e",
+        "0x154e",
+        "0x154e",
+        "0x7129",
+        "0x7139"
+      ],
+      "size_bytes": 502
+    },
+    {
+      "offset": 1019438,
+      "bank": 31,
+      "entries": 237,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        3
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xbc03",
+        "0x9f",
+        "0xbc0b",
+        "0x9f",
+        "0xbc11",
+        "0x9f",
+        "0xbc19"
+      ],
+      "size_bytes": 474
+    },
+    {
+      "offset": 1544446,
+      "bank": 47,
+      "entries": 237,
+      "map_size": "16x8",
+      "unique_tiles": 11,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0xcd6",
+        "0x14c7",
+        "0x14d8",
+        "0x14e8",
+        "0x14c8",
+        "0x0",
+        "0x0",
+        "0x34c0"
+      ],
+      "size_bytes": 474
+    },
+    {
+      "offset": 1023002,
+      "bank": 31,
+      "entries": 219,
+      "map_size": "16x8",
+      "unique_tiles": 8,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xd003",
+        "0x9f",
+        "0xd00b",
+        "0x9f",
+        "0xd011",
+        "0x9f",
+        "0xd019"
+      ],
+      "size_bytes": 438
+    },
+    {
+      "offset": 1485340,
+      "bank": 45,
+      "entries": 216,
+      "map_size": "16x8",
+      "unique_tiles": 14,
+      "palette_groups": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "first_entries": [
+        "0x10ee",
+        "0x350b",
+        "0x352b",
+        "0x112d",
+        "0x805",
+        "0x82f",
+        "0x83f",
+        "0xccc"
+      ],
+      "size_bytes": 432
+    },
+    {
+      "offset": 1021598,
+      "bank": 31,
+      "entries": 215,
+      "map_size": "16x8",
+      "unique_tiles": 7,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xc800",
+        "0x9f",
+        "0xc808",
+        "0x9f",
+        "0xc80e",
+        "0x9f",
+        "0xc814"
+      ],
+      "size_bytes": 430
+    },
+    {
+      "offset": 1214986,
+      "bank": 37,
+      "entries": 197,
+      "map_size": "16x8",
+      "unique_tiles": 10,
+      "palette_groups": [
+        1
+      ],
+      "first_entries": [
+        "0x1574",
+        "0x1574",
+        "0x1526",
+        "0x1526",
+        "0x1506",
+        "0x1516",
+        "0x1526",
+        "0x1536"
+      ],
+      "size_bytes": 394
+    },
+    {
+      "offset": 1475424,
+      "bank": 45,
+      "entries": 197,
+      "map_size": "16x8",
+      "unique_tiles": 8,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x1510",
+        "0x156e",
+        "0x972",
+        "0x962",
+        "0x972",
+        "0x1100",
+        "0x1100",
+        "0x1100"
+      ],
+      "size_bytes": 394
+    },
+    {
+      "offset": 1027846,
+      "bank": 31,
+      "entries": 189,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        3
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xf001",
+        "0x9f",
+        "0xf005",
+        "0x9f",
+        "0xf009",
+        "0x9f",
+        "0xf00d"
+      ],
+      "size_bytes": 378
+    },
+    {
+      "offset": 1020270,
+      "bank": 31,
+      "entries": 179,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xc003",
+        "0x9f",
+        "0xc009",
+        "0x9f",
+        "0xc011",
+        "0x9f",
+        "0xc019"
+      ],
+      "size_bytes": 358
+    },
+    {
+      "offset": 1024354,
+      "bank": 31,
+      "entries": 175,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xd802",
+        "0x9f",
+        "0xd80a",
+        "0x9f",
+        "0xd810",
+        "0x9f",
+        "0xd816"
+      ],
+      "size_bytes": 350
+    },
+    {
+      "offset": 1475072,
+      "bank": 45,
+      "entries": 175,
+      "map_size": "16x8",
+      "unique_tiles": 10,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x3122",
+        "0x3122",
+        "0x1574",
+        "0x1574",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x90c"
+      ],
+      "size_bytes": 350
+    },
+    {
+      "offset": 1219786,
+      "bank": 37,
+      "entries": 172,
+      "map_size": "16x8",
+      "unique_tiles": 11,
+      "palette_groups": [
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x1117",
+        "0x1105",
+        "0x1115",
+        "0x1106",
+        "0x1136",
+        "0x1117",
+        "0x3105",
+        "0x3115"
+      ],
+      "size_bytes": 344
+    },
+    {
+      "offset": 1218322,
+      "bank": 37,
+      "entries": 169,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x0",
+        "0x0",
+        "0x3dc1",
+        "0x3dd1",
+        "0x3186",
+        "0x15a7",
+        "0x15a7",
+        "0x82e"
+      ],
+      "size_bytes": 338
+    },
+    {
+      "offset": 1228142,
+      "bank": 37,
+      "entries": 169,
+      "map_size": "16x8",
+      "unique_tiles": 10,
+      "palette_groups": [
+        0,
+        1,
+        2,
+        3
+      ],
+      "first_entries": [
+        "0x7006",
+        "0xd74",
+        "0xd73",
+        "0x3014",
+        "0xd73",
+        "0xd74",
+        "0x3015",
+        "0xd74"
+      ],
+      "size_bytes": 338
+    },
+    {
+      "offset": 1027094,
+      "bank": 31,
+      "entries": 167,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        2
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xec00",
+        "0x9f",
+        "0xec1c",
+        "0x9f",
+        "0xec21",
+        "0x9f",
+        "0xec26"
+      ],
+      "size_bytes": 334
+    },
+    {
+      "offset": 1216448,
+      "bank": 37,
+      "entries": 163,
+      "map_size": "16x8",
+      "unique_tiles": 6,
+      "palette_groups": [
+        1,
+        2
+      ],
+      "first_entries": [
+        "0x1574",
+        "0x1574",
+        "0x1488",
+        "0x1498",
+        "0x1488",
+        "0x1498",
+        "0x5488",
+        "0x5498"
+      ],
+      "size_bytes": 326
+    },
+    {
+      "offset": 1483742,
+      "bank": 45,
+      "entries": 159,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x116b",
+        "0xd80",
+        "0x516a",
+        "0xd80",
+        "0xd90",
+        "0x116a",
+        "0xd80",
+        "0x116b"
+      ],
+      "size_bytes": 318
+    },
+    {
+      "offset": 1215398,
+      "bank": 37,
+      "entries": 156,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x974",
+        "0x974",
+        "0x1536",
+        "0x932",
+        "0x1162",
+        "0x1172",
+        "0x933",
+        "0x933"
+      ],
+      "size_bytes": 312
+    },
+    {
+      "offset": 1023766,
+      "bank": 31,
+      "entries": 153,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xd402",
+        "0x9f",
+        "0xd408",
+        "0x9f",
+        "0xd40e",
+        "0x9f",
+        "0xd414"
+      ],
+      "size_bytes": 306
+    },
+    {
+      "offset": 1020958,
+      "bank": 31,
+      "entries": 149,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xc402",
+        "0x9f",
+        "0xc408",
+        "0x9f",
+        "0xc40e",
+        "0x9f",
+        "0xc416"
+      ],
+      "size_bytes": 298
+    },
+    {
+      "offset": 1026510,
+      "bank": 31,
+      "entries": 149,
+      "map_size": "16x8",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0,
+        2
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xe80b",
+        "0x9f",
+        "0xe818",
+        "0x9f",
+        "0xe81d",
+        "0x9f",
+        "0xe827"
+      ],
+      "size_bytes": 298
+    },
+    {
+      "offset": 1480040,
+      "bank": 45,
+      "entries": 145,
+      "map_size": "16x8",
+      "unique_tiles": 12,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x1510",
+        "0x5548",
+        "0x5558",
+        "0x972",
+        "0x118e",
+        "0x11ae",
+        "0x973",
+        "0x118e"
+      ],
+      "size_bytes": 290
+    },
+    {
+      "offset": 1218858,
+      "bank": 37,
+      "entries": 142,
+      "map_size": "16x8",
+      "unique_tiles": 15,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x1574",
+        "0x3d1b",
+        "0x3d15",
+        "0x1c99",
+        "0x1cc8",
+        "0x1cc9",
+        "0x1cd9",
+        "0x1cd8"
+      ],
+      "size_bytes": 284
+    },
+    {
+      "offset": 1227628,
+      "bank": 37,
+      "entries": 139,
+      "map_size": "16x8",
+      "unique_tiles": 13,
+      "palette_groups": [
+        0,
+        1,
+        2
+      ],
+      "first_entries": [
+        "0xd30",
+        "0x1015",
+        "0x2d03",
+        "0x2d13",
+        "0x2d31",
+        "0x2d03",
+        "0x2d32",
+        "0x2d04"
+      ],
+      "size_bytes": 278
+    },
+    {
+      "offset": 1278474,
+      "bank": 39,
+      "entries": 139,
+      "map_size": "16x8",
+      "unique_tiles": 10,
+      "palette_groups": [
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x15d3",
+        "0x15d3",
+        "0x15d3",
+        "0x11df",
+        "0x11df",
+        "0x11df",
+        "0x51db",
+        "0x71ec"
+      ],
+      "size_bytes": 278
+    },
+    {
+      "offset": 1477926,
+      "bank": 45,
+      "entries": 139,
+      "map_size": "16x8",
+      "unique_tiles": 12,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x815",
+        "0x815",
+        "0x3106",
+        "0x1d9b",
+        "0x0",
+        "0x0",
+        "0x5124",
+        "0x80f"
+      ],
+      "size_bytes": 278
+    },
+    {
+      "offset": 1483218,
+      "bank": 45,
+      "entries": 138,
+      "map_size": "16x8",
+      "unique_tiles": 16,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x750b",
+        "0x752b",
+        "0x754e",
+        "0x11f0",
+        "0x11e0",
+        "0x1118",
+        "0x80c",
+        "0x80e"
+      ],
+      "size_bytes": 276
+    },
+    {
+      "offset": 1225034,
+      "bank": 37,
+      "entries": 137,
+      "map_size": "16x8",
+      "unique_tiles": 16,
+      "palette_groups": [
+        0,
+        1,
+        2
+      ],
+      "first_entries": [
+        "0xd82",
+        "0x1536",
+        "0x1d1c",
+        "0x2c88",
+        "0x2ca2",
+        "0x1959",
+        "0x6c87",
+        "0x6ca4"
+      ],
+      "size_bytes": 274
+    },
+    {
+      "offset": 1484062,
+      "bank": 45,
+      "entries": 135,
+      "map_size": "16x8",
+      "unique_tiles": 15,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x11aa",
+        "0x1592",
+        "0x11aa",
+        "0x1593",
+        "0x15a3",
+        "0x355e",
+        "0x157e",
+        "0x150c"
+      ],
+      "size_bytes": 270
+    },
+    {
+      "offset": 1478214,
+      "bank": 45,
+      "entries": 129,
+      "map_size": "16x8",
+      "unique_tiles": 11,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x15aa",
+        "0x81f",
+        "0x802",
+        "0x822",
+        "0x0",
+        "0x0",
+        "0x1106",
+        "0x55a7"
+      ],
+      "size_bytes": 258
+    },
+    {
+      "offset": 755236,
+      "bank": 23,
+      "entries": 128,
+      "map_size": "16x8",
+      "unique_tiles": 3,
+      "palette_groups": [
+        0,
+        3
+      ],
+      "first_entries": [
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "size_bytes": 256
+    },
+    {
+      "offset": 1022354,
+      "bank": 31,
+      "entries": 127,
+      "map_size": "127entries",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0x9f",
+        "0xcc03",
+        "0x9f",
+        "0xcc09",
+        "0x9f",
+        "0xcc0f",
+        "0x9f",
+        "0xcc15"
+      ],
+      "size_bytes": 254
+    },
+    {
+      "offset": 1029806,
+      "bank": 31,
+      "entries": 127,
+      "map_size": "127entries",
+      "unique_tiles": 3,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0xfc",
+        "0xc423",
+        "0xfc",
+        "0xc423",
+        "0xfc",
+        "0xc423",
+        "0xfc",
+        "0xc423"
+      ],
+      "size_bytes": 254
+    },
+    {
+      "offset": 1477212,
+      "bank": 45,
+      "entries": 126,
+      "map_size": "126entries",
+      "unique_tiles": 12,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x972",
+        "0x0",
+        "0x0",
+        "0xd8a",
+        "0xd9a",
+        "0x0",
+        "0x11a2",
+        "0x11b2"
+      ],
+      "size_bytes": 252
+    },
+    {
+      "offset": 1221774,
+      "bank": 37,
+      "entries": 124,
+      "map_size": "124entries",
+      "unique_tiles": 14,
+      "palette_groups": [
+        0,
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x3507",
+        "0x3515",
+        "0x7529",
+        "0x3505",
+        "0x3529",
+        "0x3505",
+        "0x351c",
+        "0x3518"
+      ],
+      "size_bytes": 248
+    },
+    {
+      "offset": 1228818,
+      "bank": 37,
+      "entries": 119,
+      "map_size": "119entries",
+      "unique_tiles": 12,
+      "palette_groups": [
+        1
+      ],
+      "first_entries": [
+        "0x500b",
+        "0x1029",
+        "0x103c",
+        "0x105b",
+        "0x1014",
+        "0x501a",
+        "0x102a",
+        "0x503b"
+      ],
+      "size_bytes": 238
+    },
+    {
+      "offset": 1018850,
+      "bank": 31,
+      "entries": 115,
+      "map_size": "115entries",
+      "unique_tiles": 10,
+      "palette_groups": [
+        0,
+        3
+      ],
+      "first_entries": [
+        "0xfc",
+        "0xb80c",
+        "0x9f",
+        "0xb814",
+        "0x9f",
+        "0xb81c",
+        "0x9f",
+        "0xb824"
+      ],
+      "size_bytes": 230
+    },
+    {
+      "offset": 1219550,
+      "bank": 37,
+      "entries": 114,
+      "map_size": "114entries",
+      "unique_tiles": 15,
+      "palette_groups": [
+        1,
+        3
+      ],
+      "first_entries": [
+        "0x1434",
+        "0x1425",
+        "0x1435",
+        "0x1434",
+        "0x1c4c",
+        "0x1c5c",
+        "0x1c6a",
+        "0x1c15"
+      ],
+      "size_bytes": 228
+    },
+    {
+      "offset": 754974,
+      "bank": 23,
+      "entries": 113,
+      "map_size": "113entries",
+      "unique_tiles": 4,
+      "palette_groups": [
+        0,
+        3
+      ],
+      "first_entries": [
+        "0x98",
+        "0xf4fe",
+        "0x98",
+        "0xf5a8",
+        "0x98",
+        "0x0",
+        "0x0",
+        "0x0"
+      ],
+      "size_bytes": 226
+    },
+    {
+      "offset": 1030290,
+      "bank": 31,
+      "entries": 113,
+      "map_size": "113entries",
+      "unique_tiles": 9,
+      "palette_groups": [
+        0
+      ],
+      "first_entries": [
+        "0xfc",
+        "0xc803",
+        "0xfc",
+        "0xc80e",
+        "0xfc",
+        "0xc819",
+        "0xfc",
+        "0xc824"
+      ],
+      "size_bytes": 226
+    },
+    {
+      "offset": 1475986,
+      "bank": 45,
+      "entries": 112,
+      "map_size": "112entries",
+      "unique_tiles": 4,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0xd8b",
+        "0xd9b",
+        "0xd8b",
+        "0xd9b",
+        "0x0",
+        "0x0",
+        "0x1495",
+        "0x1495"
+      ],
+      "size_bytes": 224
+    },
+    {
+      "offset": 1480878,
+      "bank": 45,
+      "entries": 111,
+      "map_size": "111entries",
+      "unique_tiles": 15,
+      "palette_groups": [
+        0,
+        1
+      ],
+      "first_entries": [
+        "0x827",
+        "0x114b",
+        "0x1147",
+        "0x14b5",
+        "0x14b4",
+        "0x1157",
+        "0x5157",
+        "0x5167"
+      ],
+      "size_bytes": 222
+    }
+  ],
+  "data_blocks": [
+    {
+      "offset": 918013,
+      "bank": 28,
+      "size": 32259,
+      "type": "unknown"
+    },
+    {
+      "offset": 229886,
+      "bank": 7,
+      "size": 32258,
+      "type": "unknown"
+    },
+    {
+      "offset": 950927,
+      "bank": 29,
+      "size": 32113,
+      "type": "unknown"
+    },
+    {
+      "offset": 426493,
+      "bank": 13,
+      "size": 31345,
+      "type": "unknown"
+    },
+    {
+      "offset": 755261,
+      "bank": 23,
+      "size": 31031,
+      "type": "unknown"
+    },
+    {
+      "offset": 492029,
+      "bank": 15,
+      "size": 29494,
+      "type": "unknown"
+    },
+    {
+      "offset": 1018376,
+      "bank": 31,
+      "size": 27100,
+      "type": "unknown"
+    },
+    {
+      "offset": 655869,
+      "bank": 20,
+      "size": 23614,
+      "type": "unknown"
+    },
+    {
+      "offset": 141148,
+      "bank": 4,
+      "size": 22692,
+      "type": "unknown"
+    },
+    {
+      "offset": 459261,
+      "bank": 14,
+      "size": 22485,
+      "type": "unknown"
+    },
+    {
+      "offset": 394433,
+      "bank": 12,
+      "size": 22309,
+      "type": "unknown"
+    },
+    {
+      "offset": 1180159,
+      "bank": 36,
+      "size": 21547,
+      "type": "unknown"
+    },
+    {
+      "offset": 306136,
+      "bank": 9,
+      "size": 21544,
+      "type": "unknown"
+    },
+    {
+      "offset": 271671,
+      "bank": 8,
+      "size": 16852,
+      "type": "unknown"
+    },
+    {
+      "offset": 167449,
+      "bank": 5,
+      "size": 16040,
+      "type": "unknown"
+    },
+    {
+      "offset": 360962,
+      "bank": 11,
+      "size": 15948,
+      "type": "unknown"
+    },
+    {
+      "offset": 211306,
+      "bank": 6,
+      "size": 15166,
+      "type": "unknown"
+    },
+    {
+      "offset": 339167,
+      "bank": 10,
+      "size": 14217,
+      "type": "unknown"
+    },
+    {
+      "offset": 183512,
+      "bank": 5,
+      "size": 11422,
+      "type": "unknown"
+    },
+    {
+      "offset": 735463,
+      "bank": 22,
+      "size": 10882,
+      "type": "unknown"
+    },
+    {
+      "offset": 1218683,
+      "bank": 37,
+      "size": 10733,
+      "type": "unknown"
+    },
+    {
+      "offset": 983549,
+      "bank": 30,
+      "size": 10630,
+      "type": "unknown"
+    },
+    {
+      "offset": 197117,
+      "bank": 6,
+      "size": 9027,
+      "type": "unknown"
+    },
+    {
+      "offset": 262653,
+      "bank": 8,
+      "size": 9016,
+      "type": "unknown"
+    },
+    {
+      "offset": 132343,
+      "bank": 4,
+      "size": 8799,
+      "type": "unknown"
+    },
+    {
+      "offset": 701760,
+      "bank": 21,
+      "size": 8520,
+      "type": "unknown"
+    },
+    {
+      "offset": 722373,
+      "bank": 22,
+      "size": 8440,
+      "type": "unknown"
+    },
+    {
+      "offset": 999771,
+      "bank": 30,
+      "size": 7831,
+      "type": "unknown"
+    },
+    {
+      "offset": 353385,
+      "bank": 10,
+      "size": 7063,
+      "type": "unknown"
+    },
+    {
+      "offset": 417120,
+      "bank": 12,
+      "size": 7016,
+      "type": "unknown"
+    },
+    {
+      "offset": 481747,
+      "bank": 14,
+      "size": 6798,
+      "type": "unknown"
+    },
+    {
+      "offset": 299559,
+      "bank": 9,
+      "size": 6468,
+      "type": "unknown"
+    },
+    {
+      "offset": 688637,
+      "bank": 21,
+      "size": 6298,
+      "type": "unknown"
+    },
+    {
+      "offset": 679500,
+      "bank": 20,
+      "size": 6085,
+      "type": "unknown"
+    },
+    {
+      "offset": 333174,
+      "bank": 10,
+      "size": 5992,
+      "type": "unknown"
+    },
+    {
+      "offset": 1245679,
+      "bank": 38,
+      "size": 5357,
+      "type": "unknown"
+    },
+    {
+      "offset": 994418,
+      "bank": 30,
+      "size": 5352,
+      "type": "unknown"
+    },
+    {
+      "offset": 1280341,
+      "bank": 39,
+      "size": 4666,
+      "type": "unknown"
+    },
+    {
+      "offset": 288765,
+      "bank": 8,
+      "size": 4645,
+      "type": "unknown"
+    },
+    {
+      "offset": 328189,
+      "bank": 10,
+      "size": 4410,
+      "type": "unknown"
+    },
+    {
+      "offset": 295426,
+      "bank": 9,
+      "size": 4132,
+      "type": "unknown"
+    },
+    {
+      "offset": 1007607,
+      "bank": 30,
+      "size": 3804,
+      "type": "unknown"
+    },
+    {
+      "offset": 746371,
+      "bank": 22,
+      "size": 3675,
+      "type": "unknown"
+    },
+    {
+      "offset": 710296,
+      "bank": 21,
+      "size": 3231,
+      "type": "unknown"
+    },
+    {
+      "offset": 381691,
+      "bank": 11,
+      "size": 3207,
+      "type": "unknown"
+    },
+    {
+      "offset": 384900,
+      "bank": 11,
+      "size": 3153,
+      "type": "unknown"
+    },
+    {
+      "offset": 731018,
+      "bank": 22,
+      "size": 2953,
+      "type": "unknown"
+    },
+    {
+      "offset": 208128,
+      "bank": 6,
+      "size": 2793,
+      "type": "unknown"
+    },
+    {
+      "offset": 750056,
+      "bank": 22,
+      "size": 2661,
+      "type": "unknown"
+    },
+    {
+      "offset": 165187,
+      "bank": 5,
+      "size": 2260,
+      "type": "unknown"
+    }
+  ]
+}

@@ -1,0 +1,646 @@
+=== SPC700程序代码分析报告 ===
+
+--- spc_00_title ---
+  Reset vector: $8178
+  指令数: 279
+  子程序数: 7
+  DSP寄存器写入: 0
+  端口通信点: 1
+
+  入口点反汇编:
+    $8178: 08 C2        OR A,##$C2
+    $817A: 20           CLRP
+    $817B: C2 10 48     SET1$4810
+    $817E: 8B 0B        DEC$0B
+    $8180: DA 5A        MOVW $5A
+    $8182: A9           SBC (X),(Y)
+    $8183: 00           NOP
+    $8184: 00           NOP
+    $8185: 5B E2        LSR$E2
+    $8187: 20           CLRP
+    $8188: A9           SBC (X),(Y)
+    $8189: 80           SETC
+    $818A: 48 AB        EOR A,##$AB
+    $818C: 5C           LSR
+    $818D: 90 81        BCC$8110
+    $818F: 80           SETC
+    $8190: AD 11        MOV A,##$11
+    $8192: 42 A5 58     SET1$58A5
+    $8195: F0 0F        BEQ$81A6
+    $8197: 4B F4        LSR$F4
+    $8199: A5 81        SBC A,$81
+    $819B: A6           SBC A,(X)
+    $819C: 61 BD        TCALL$BD
+    $819E: 02 F5 48     SET1$48F5
+    $81A1: BC           INC
+    $81A2: 00           NOP
+    $81A3: F5 5A        MOV A,$5A
+    $81A5: 6B 7A        ROR$7A
+    $81A7: FA 2B AB     MOV $AB2B
+    $81AA: C2 20 68     SET1$6820
+    $81AD: 28 40        AND A,##$40
+    $81AF: 64 52        CMP A,$52
+    $81B1: E6           MOV A,(X)
+    $81B2: 53 22 D4 81  BBC$22,$D4
+    $81B6: 80           SETC
+    $81B7: A5 52        SBC A,$52
+    $81B9: F0 F8        BEQ$81B3
+    $81BB: 64 53        CMP A,$53
+    $81BD: A5 5B        SBC A,$5B
+    $81BF: C5 5C        MOV A,$5C
+    $81C1: B0 0E        BCS$81D1
+    $81C3: A5 5B        SBC A,$5B
+    $81C5: 48 22        EOR A,##$22
+    $81C7: D4 81        MOV A,$81
+    $81C9: 80           SETC
+    $81CA: 68 C5        CMP A,##$C5
+    $81CC: 5B F0        LSR$F0
+    $81CE: F6           MOV A,(X+)
+    $81CF: 80           SETC
+    $81D0: EC 64        MOV $64
+    $81D2: 5B 6B        LSR$6B
+    $81D4: A6           SBC A,(X)
+    $81D5: 67           CMP A,(X+)
+    $81D6: BD           MOV SP,X
+    $81D7: C2 F6 48     SET1$48F6
+    $81DA: BC           INC
+    $81DB: C0           DI
+    $81DC: F6           MOV A,(X+)
+    $81DD: 5A 6B        ADDW YA,$6B
+    $81DF: FF           MOV A,(X)+
+    $81E0: 00           NOP
+    $81E1: 64 54        CMP A,$54
+    $81E3: 64 55        CMP A,$55
+    $81E5: 64 56        CMP A,$56
+    $81E7: A2 02 00     SET1$0002
+    $81EA: 8E           POP PSW
+    $81EB: 32 0A 8E     CLR1$8E0A
+    $81EE: 36           AND A,(X+)
+    $81EF: 0A 9C 3A     OR1 C,$3A9C
+    $81F2: 0A 9C 3B     OR1 C,$3B9C
+    $81F5: 0A 60 20     OR1 C,$2060
+    $81F8: E1 81        TCALL$81
+    $81FA: A9           SBC (X),(Y)
+    $81FB: 07           OR A,(X+)
+    $81FC: 04 54        OR A,$54
+    $81FE: A9           SBC (X),(Y)
+    $81FF: 06           OR A,(X)
+    $8200: 04 55        OR A,$55
+    $8202: A9           SBC (X),(Y)
+    $8203: 00           NOP
+    $8204: 8D 4B        MOV Y,##$4B
+    $8206: 04 A9        OR A,$A9
+    $8208: 04 8D        OR A,$8D
+    $820A: 4C 04        LSR$04
+    $820C: A9           SBC (X),(Y)
+    $820D: 08 8D        OR A,##$8D
+    $820F: 4D           PUSH X
+    $8210: 04 6B        OR A,$6B
+    $8212: 86           ADC A,(X)
+    $8213: 44 85        EOR A,$85
+    $8215: 46           EOR A,(X)
+    $8216: EB 85 31     MOV $3185
+    $8219: A5 54        SBC A,$54
+    $821B: 29           AND (X),(Y)
+    $821C: FE           DEC Y
+    $821D: C9           MOV (X),(Y)
+    $821E: FE           DEC Y
+    $821F: D0 02        BNE$8223
+    $8221: 38 6B 85     AND,$856B
+    $8224: 30 A0        BMI$81C6
+
+  子程序列表:
+    $0005: 107条指令, RET=N
+      $0005: 00           NOP
+      $0006: 00           NOP
+      $0007: 00           NOP
+      $0008: 00           NOP
+      $0009: 00           NOP
+
+    $0008: 106条指令, RET=N
+      $0008: 00           NOP
+      $0009: 00           NOP
+      $000A: 00           NOP
+      $000B: 00           NOP
+      $000C: 00           NOP
+
+    $0043: 98条指令, RET=N
+      $0043: 40           SETP
+      $0044: 03 CF 87 80  BBS$CF,$87
+      $0048: 90 7E        BCC$00C8
+      $004A: 45 CF        EOR A,$CF
+      $004C: 87           ADC A,(X+)
+
+    $0081: 114条指令, RET=N
+      $0081: 00           NOP
+      $0082: 00           NOP
+      $0083: 81 0F        TCALL$0F
+      $0085: 0F           BRK
+      $0086: 01 15        TCALL$15
+
+    $0085: 113条指令, RET=N
+      $0085: 0F           BRK
+      $0086: 01 15        TCALL$15
+      $0088: 01 00        TCALL$00
+      $008A: 00           NOP
+      $008B: 01 6C        TCALL$6C
+
+    $0099: 108条指令, RET=N
+      $0099: 00           NOP
+      $009A: 00           NOP
+      $009B: 00           NOP
+      $009C: D8 00 00     MOV $0000
+      $009F: 00           NOP
+
+    $00BD: 99条指令, RET=N
+      $00BD: 00           NOP
+      $00BE: 00           NOP
+      $00BF: FF           MOV A,(X)+
+      $00C0: FF           MOV A,(X)+
+      $00C1: 00           NOP
+
+  DSP寄存器写入 (前30):
+
+--- spc_01_intro_end ---
+  Reset vector: $8178
+  指令数: 279
+  子程序数: 7
+  DSP寄存器写入: 0
+  端口通信点: 1
+
+  入口点反汇编:
+    $8178: 08 C2        OR A,##$C2
+    $817A: 20           CLRP
+    $817B: C2 10 48     SET1$4810
+    $817E: 8B 0B        DEC$0B
+    $8180: DA 5A        MOVW $5A
+    $8182: A9           SBC (X),(Y)
+    $8183: 00           NOP
+    $8184: 00           NOP
+    $8185: 5B E2        LSR$E2
+    $8187: 20           CLRP
+    $8188: A9           SBC (X),(Y)
+    $8189: 80           SETC
+    $818A: 48 AB        EOR A,##$AB
+    $818C: 5C           LSR
+    $818D: 90 81        BCC$8110
+    $818F: 80           SETC
+    $8190: AD 11        MOV A,##$11
+    $8192: 42 A5 58     SET1$58A5
+    $8195: F0 0F        BEQ$81A6
+    $8197: 4B F4        LSR$F4
+    $8199: A5 81        SBC A,$81
+    $819B: A6           SBC A,(X)
+    $819C: 61 BD        TCALL$BD
+    $819E: 02 F5 48     SET1$48F5
+    $81A1: BC           INC
+    $81A2: 00           NOP
+    $81A3: F5 5A        MOV A,$5A
+    $81A5: 6B 7A        ROR$7A
+    $81A7: FA 2B AB     MOV $AB2B
+    $81AA: C2 20 68     SET1$6820
+    $81AD: 28 40        AND A,##$40
+    $81AF: 64 52        CMP A,$52
+    $81B1: E6           MOV A,(X)
+    $81B2: 53 22 D4 81  BBC$22,$D4
+    $81B6: 80           SETC
+    $81B7: A5 52        SBC A,$52
+    $81B9: F0 F8        BEQ$81B3
+    $81BB: 64 53        CMP A,$53
+    $81BD: A5 5B        SBC A,$5B
+    $81BF: C5 5C        MOV A,$5C
+    $81C1: B0 0E        BCS$81D1
+    $81C3: A5 5B        SBC A,$5B
+    $81C5: 48 22        EOR A,##$22
+    $81C7: D4 81        MOV A,$81
+    $81C9: 80           SETC
+    $81CA: 68 C5        CMP A,##$C5
+    $81CC: 5B F0        LSR$F0
+    $81CE: F6           MOV A,(X+)
+    $81CF: 80           SETC
+    $81D0: EC 64        MOV $64
+    $81D2: 5B 6B        LSR$6B
+    $81D4: A6           SBC A,(X)
+    $81D5: 67           CMP A,(X+)
+    $81D6: BD           MOV SP,X
+    $81D7: C2 F6 48     SET1$48F6
+    $81DA: BC           INC
+    $81DB: C0           DI
+    $81DC: F6           MOV A,(X+)
+    $81DD: 5A 6B        ADDW YA,$6B
+    $81DF: FF           MOV A,(X)+
+    $81E0: 00           NOP
+    $81E1: 64 54        CMP A,$54
+    $81E3: 64 55        CMP A,$55
+    $81E5: 64 56        CMP A,$56
+    $81E7: A2 02 00     SET1$0002
+    $81EA: 8E           POP PSW
+    $81EB: 32 0A 8E     CLR1$8E0A
+    $81EE: 36           AND A,(X+)
+    $81EF: 0A 9C 3A     OR1 C,$3A9C
+    $81F2: 0A 9C 3B     OR1 C,$3B9C
+    $81F5: 0A 60 20     OR1 C,$2060
+    $81F8: E1 81        TCALL$81
+    $81FA: A9           SBC (X),(Y)
+    $81FB: 07           OR A,(X+)
+    $81FC: 04 54        OR A,$54
+    $81FE: A9           SBC (X),(Y)
+    $81FF: 06           OR A,(X)
+    $8200: 04 55        OR A,$55
+    $8202: A9           SBC (X),(Y)
+    $8203: 00           NOP
+    $8204: 8D 4B        MOV Y,##$4B
+    $8206: 04 A9        OR A,$A9
+    $8208: 04 8D        OR A,$8D
+    $820A: 4C 04        LSR$04
+    $820C: A9           SBC (X),(Y)
+    $820D: 08 8D        OR A,##$8D
+    $820F: 4D           PUSH X
+    $8210: 04 6B        OR A,$6B
+    $8212: 86           ADC A,(X)
+    $8213: 44 85        EOR A,$85
+    $8215: 46           EOR A,(X)
+    $8216: EB 85 31     MOV $3185
+    $8219: A5 54        SBC A,$54
+    $821B: 29           AND (X),(Y)
+    $821C: FE           DEC Y
+    $821D: C9           MOV (X),(Y)
+    $821E: FE           DEC Y
+    $821F: D0 02        BNE$8223
+    $8221: 38 6B 85     AND,$856B
+    $8224: 30 A0        BMI$81C6
+
+  子程序列表:
+    $0005: 93条指令, RET=N
+      $0005: 00           NOP
+      $0006: 22 8E 7E     SET1$7E8E
+      $0009: 67           CMP A,(X+)
+      $000A: 00           NOP
+      $000B: 7E 00        CMP Y,$00
+
+    $0008: 93条指令, RET=N
+      $0008: 7E 67        CMP Y,$67
+      $000A: 00           NOP
+      $000B: 7E 00        CMP Y,$00
+      $000D: 00           NOP
+      $000E: 00           NOP
+
+    $0043: 92条指令, RET=Y
+      $0043: 20           CLRP
+      $0044: 03 80 83 19  BBS$80,$83
+      $0048: AE           POP A
+      $0049: 7E D9        CMP Y,$D9
+      $004B: 92 7E D9     CLR1$D97E
+
+    $0081: 96条指令, RET=Y
+      $0081: 00           NOP
+      $0082: 00           NOP
+      $0083: 81 0F        TCALL$0F
+      $0085: 0F           BRK
+      $0086: 03 17 04 00  BBS$17,$04
+
+    $0085: 95条指令, RET=Y
+      $0085: 0F           BRK
+      $0086: 03 17 04 00  BBS$17,$04
+      $008A: 00           NOP
+      $008B: 09           OR (X),(Y)
+      $008C: 31 39        TCALL$39
+
+    $0099: 92条指令, RET=Y
+      $0099: 00           NOP
+      $009A: 00           NOP
+      $009B: 00           NOP
+      $009C: 00           NOP
+      $009D: 00           NOP
+
+    $00BD: 88条指令, RET=N
+      $00BD: 00           NOP
+      $00BE: 00           NOP
+      $00BF: FF           MOV A,(X)+
+      $00C0: FF           MOV A,(X)+
+      $00C1: 00           NOP
+
+  DSP寄存器写入 (前30):
+
+--- spc_02_town ---
+  Reset vector: $8178
+  指令数: 279
+  子程序数: 7
+  DSP寄存器写入: 0
+  端口通信点: 1
+
+  入口点反汇编:
+    $8178: 08 C2        OR A,##$C2
+    $817A: 20           CLRP
+    $817B: C2 10 48     SET1$4810
+    $817E: 8B 0B        DEC$0B
+    $8180: DA 5A        MOVW $5A
+    $8182: A9           SBC (X),(Y)
+    $8183: 00           NOP
+    $8184: 00           NOP
+    $8185: 5B E2        LSR$E2
+    $8187: 20           CLRP
+    $8188: A9           SBC (X),(Y)
+    $8189: 80           SETC
+    $818A: 48 AB        EOR A,##$AB
+    $818C: 5C           LSR
+    $818D: 90 81        BCC$8110
+    $818F: 80           SETC
+    $8190: AD 11        MOV A,##$11
+    $8192: 42 A5 58     SET1$58A5
+    $8195: F0 0F        BEQ$81A6
+    $8197: 4B F4        LSR$F4
+    $8199: A5 81        SBC A,$81
+    $819B: A6           SBC A,(X)
+    $819C: 61 BD        TCALL$BD
+    $819E: 02 F5 48     SET1$48F5
+    $81A1: BC           INC
+    $81A2: 00           NOP
+    $81A3: F5 5A        MOV A,$5A
+    $81A5: 6B 7A        ROR$7A
+    $81A7: FA 2B AB     MOV $AB2B
+    $81AA: C2 20 68     SET1$6820
+    $81AD: 28 40        AND A,##$40
+    $81AF: 64 52        CMP A,$52
+    $81B1: E6           MOV A,(X)
+    $81B2: 53 22 D4 81  BBC$22,$D4
+    $81B6: 80           SETC
+    $81B7: A5 52        SBC A,$52
+    $81B9: F0 F8        BEQ$81B3
+    $81BB: 64 53        CMP A,$53
+    $81BD: A5 5B        SBC A,$5B
+    $81BF: C5 5C        MOV A,$5C
+    $81C1: B0 0E        BCS$81D1
+    $81C3: A5 5B        SBC A,$5B
+    $81C5: 48 22        EOR A,##$22
+    $81C7: D4 81        MOV A,$81
+    $81C9: 80           SETC
+    $81CA: 68 C5        CMP A,##$C5
+    $81CC: 5B F0        LSR$F0
+    $81CE: F6           MOV A,(X+)
+    $81CF: 80           SETC
+    $81D0: EC 64        MOV $64
+    $81D2: 5B 6B        LSR$6B
+    $81D4: A6           SBC A,(X)
+    $81D5: 67           CMP A,(X+)
+    $81D6: BD           MOV SP,X
+    $81D7: C2 F6 48     SET1$48F6
+    $81DA: BC           INC
+    $81DB: C0           DI
+    $81DC: F6           MOV A,(X+)
+    $81DD: 5A 6B        ADDW YA,$6B
+    $81DF: FF           MOV A,(X)+
+    $81E0: 00           NOP
+    $81E1: 64 54        CMP A,$54
+    $81E3: 64 55        CMP A,$55
+    $81E5: 64 56        CMP A,$56
+    $81E7: A2 02 00     SET1$0002
+    $81EA: 8E           POP PSW
+    $81EB: 32 0A 8E     CLR1$8E0A
+    $81EE: 36           AND A,(X+)
+    $81EF: 0A 9C 3A     OR1 C,$3A9C
+    $81F2: 0A 9C 3B     OR1 C,$3B9C
+    $81F5: 0A 60 20     OR1 C,$2060
+    $81F8: E1 81        TCALL$81
+    $81FA: A9           SBC (X),(Y)
+    $81FB: 07           OR A,(X+)
+    $81FC: 04 54        OR A,$54
+    $81FE: A9           SBC (X),(Y)
+    $81FF: 06           OR A,(X)
+    $8200: 04 55        OR A,$55
+    $8202: A9           SBC (X),(Y)
+    $8203: 00           NOP
+    $8204: 8D 4B        MOV Y,##$4B
+    $8206: 04 A9        OR A,$A9
+    $8208: 04 8D        OR A,$8D
+    $820A: 4C 04        LSR$04
+    $820C: A9           SBC (X),(Y)
+    $820D: 08 8D        OR A,##$8D
+    $820F: 4D           PUSH X
+    $8210: 04 6B        OR A,$6B
+    $8212: 86           ADC A,(X)
+    $8213: 44 85        EOR A,$85
+    $8215: 46           EOR A,(X)
+    $8216: EB 85 31     MOV $3185
+    $8219: A5 54        SBC A,$54
+    $821B: 29           AND (X),(Y)
+    $821C: FE           DEC Y
+    $821D: C9           MOV (X),(Y)
+    $821E: FE           DEC Y
+    $821F: D0 02        BNE$8223
+    $8221: 38 6B 85     AND,$856B
+    $8224: 30 A0        BMI$81C6
+
+  子程序列表:
+    $0005: 89条指令, RET=N
+      $0005: 00           NOP
+      $0006: 22 8E 7E     SET1$7E8E
+      $0009: 67           CMP A,(X+)
+      $000A: 00           NOP
+      $000B: 7E 00        CMP Y,$00
+
+    $0008: 89条指令, RET=N
+      $0008: 7E 67        CMP Y,$67
+      $000A: 00           NOP
+      $000B: 7E 00        CMP Y,$00
+      $000D: 00           NOP
+      $000E: 00           NOP
+
+    $0043: 84条指令, RET=Y
+      $0043: 20           CLRP
+      $0044: 03 80 83 15  BBS$80,$83
+      $0048: 04 7F        OR A,$7F
+      $004A: 08 82        OR A,##$82
+      $004C: A0           EI
+
+    $0081: 94条指令, RET=Y
+      $0081: 00           NOP
+      $0082: 00           NOP
+      $0083: 81 0F        TCALL$0F
+      $0085: 0F           BRK
+      $0086: 03 17 04 00  BBS$17,$04
+
+    $0085: 93条指令, RET=Y
+      $0085: 0F           BRK
+      $0086: 03 17 04 00  BBS$17,$04
+      $008A: 00           NOP
+      $008B: 09           OR (X),(Y)
+      $008C: 31 39        TCALL$39
+
+    $0099: 91条指令, RET=Y
+      $0099: 00           NOP
+      $009A: 98 00 B0     ADC,$B000
+      $009D: 00           NOP
+      $009E: 98 00 B0     ADC,$B000
+      $00A1: 00           NOP
+
+    $00BD: 89条指令, RET=N
+      $00BD: 00           NOP
+      $00BE: 00           NOP
+      $00BF: FF           MOV A,(X)+
+      $00C0: FF           MOV A,(X)+
+      $00C1: 00           NOP
+
+  DSP寄存器写入 (前30):
+
+--- spc_03_wm_entry ---
+  Reset vector: $8178
+  指令数: 279
+  子程序数: 7
+  DSP寄存器写入: 0
+  端口通信点: 1
+
+  入口点反汇编:
+    $8178: 08 C2        OR A,##$C2
+    $817A: 20           CLRP
+    $817B: C2 10 48     SET1$4810
+    $817E: 8B 0B        DEC$0B
+    $8180: DA 5A        MOVW $5A
+    $8182: A9           SBC (X),(Y)
+    $8183: 00           NOP
+    $8184: 00           NOP
+    $8185: 5B E2        LSR$E2
+    $8187: 20           CLRP
+    $8188: A9           SBC (X),(Y)
+    $8189: 80           SETC
+    $818A: 48 AB        EOR A,##$AB
+    $818C: 5C           LSR
+    $818D: 90 81        BCC$8110
+    $818F: 80           SETC
+    $8190: AD 11        MOV A,##$11
+    $8192: 42 A5 58     SET1$58A5
+    $8195: F0 0F        BEQ$81A6
+    $8197: 4B F4        LSR$F4
+    $8199: A5 81        SBC A,$81
+    $819B: A6           SBC A,(X)
+    $819C: 61 BD        TCALL$BD
+    $819E: 02 F5 48     SET1$48F5
+    $81A1: BC           INC
+    $81A2: 00           NOP
+    $81A3: F5 5A        MOV A,$5A
+    $81A5: 6B 7A        ROR$7A
+    $81A7: FA 2B AB     MOV $AB2B
+    $81AA: C2 20 68     SET1$6820
+    $81AD: 28 40        AND A,##$40
+    $81AF: 64 52        CMP A,$52
+    $81B1: E6           MOV A,(X)
+    $81B2: 53 22 D4 81  BBC$22,$D4
+    $81B6: 80           SETC
+    $81B7: A5 52        SBC A,$52
+    $81B9: F0 F8        BEQ$81B3
+    $81BB: 64 53        CMP A,$53
+    $81BD: A5 5B        SBC A,$5B
+    $81BF: C5 5C        MOV A,$5C
+    $81C1: B0 0E        BCS$81D1
+    $81C3: A5 5B        SBC A,$5B
+    $81C5: 48 22        EOR A,##$22
+    $81C7: D4 81        MOV A,$81
+    $81C9: 80           SETC
+    $81CA: 68 C5        CMP A,##$C5
+    $81CC: 5B F0        LSR$F0
+    $81CE: F6           MOV A,(X+)
+    $81CF: 80           SETC
+    $81D0: EC 64        MOV $64
+    $81D2: 5B 6B        LSR$6B
+    $81D4: A6           SBC A,(X)
+    $81D5: 67           CMP A,(X+)
+    $81D6: BD           MOV SP,X
+    $81D7: C2 F6 48     SET1$48F6
+    $81DA: BC           INC
+    $81DB: C0           DI
+    $81DC: F6           MOV A,(X+)
+    $81DD: 5A 6B        ADDW YA,$6B
+    $81DF: FF           MOV A,(X)+
+    $81E0: 00           NOP
+    $81E1: 64 54        CMP A,$54
+    $81E3: 64 55        CMP A,$55
+    $81E5: 64 56        CMP A,$56
+    $81E7: A2 02 00     SET1$0002
+    $81EA: 8E           POP PSW
+    $81EB: 32 0A 8E     CLR1$8E0A
+    $81EE: 36           AND A,(X+)
+    $81EF: 0A 9C 3A     OR1 C,$3A9C
+    $81F2: 0A 9C 3B     OR1 C,$3B9C
+    $81F5: 0A 60 20     OR1 C,$2060
+    $81F8: E1 81        TCALL$81
+    $81FA: A9           SBC (X),(Y)
+    $81FB: 07           OR A,(X+)
+    $81FC: 04 54        OR A,$54
+    $81FE: A9           SBC (X),(Y)
+    $81FF: 06           OR A,(X)
+    $8200: 04 55        OR A,$55
+    $8202: A9           SBC (X),(Y)
+    $8203: 00           NOP
+    $8204: 8D 4B        MOV Y,##$4B
+    $8206: 04 A9        OR A,$A9
+    $8208: 04 8D        OR A,$8D
+    $820A: 4C 04        LSR$04
+    $820C: A9           SBC (X),(Y)
+    $820D: 08 8D        OR A,##$8D
+    $820F: 4D           PUSH X
+    $8210: 04 6B        OR A,$6B
+    $8212: 86           ADC A,(X)
+    $8213: 44 85        EOR A,$85
+    $8215: 46           EOR A,(X)
+    $8216: EB 85 31     MOV $3185
+    $8219: A5 54        SBC A,$54
+    $821B: 29           AND (X),(Y)
+    $821C: FE           DEC Y
+    $821D: C9           MOV (X),(Y)
+    $821E: FE           DEC Y
+    $821F: D0 02        BNE$8223
+    $8221: 38 6B 85     AND,$856B
+    $8224: 30 A0        BMI$81C6
+
+  子程序列表:
+    $0005: 91条指令, RET=N
+      $0005: 00           NOP
+      $0006: 22 8E 7E     SET1$7E8E
+      $0009: 67           CMP A,(X+)
+      $000A: 00           NOP
+      $000B: 7E 00        CMP Y,$00
+
+    $0008: 91条指令, RET=N
+      $0008: 7E 67        CMP Y,$67
+      $000A: 00           NOP
+      $000B: 7E 00        CMP Y,$00
+      $000D: 00           NOP
+      $000E: 00           NOP
+
+    $0043: 83条指令, RET=Y
+      $0043: 20           CLRP
+      $0044: 03 80 83 15  BBS$80,$83
+      $0048: 04 7F        OR A,$7F
+      $004A: 08 82        OR A,##$82
+      $004C: A0           EI
+
+    $0081: 92条指令, RET=Y
+      $0081: 00           NOP
+      $0082: 00           NOP
+      $0083: 81 0F        TCALL$0F
+      $0085: 0F           BRK
+      $0086: 03 17 04 00  BBS$17,$04
+
+    $0085: 91条指令, RET=Y
+      $0085: 0F           BRK
+      $0086: 03 17 04 00  BBS$17,$04
+      $008A: 00           NOP
+      $008B: 09           OR (X),(Y)
+      $008C: 31 39        TCALL$39
+
+    $0099: 89条指令, RET=Y
+      $0099: 00           NOP
+      $009A: 98 00 B0     ADC,$B000
+      $009D: 00           NOP
+      $009E: 98 00 B0     ADC,$B000
+      $00A1: 00           NOP
+
+    $00BD: 89条指令, RET=N
+      $00BD: 00           NOP
+      $00BE: 00           NOP
+      $00BF: FF           MOV A,(X)+
+      $00C0: FF           MOV A,(X)+
+      $00C1: 00           NOP
+
+  DSP寄存器写入 (前30):
+
