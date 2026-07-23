@@ -1,0 +1,8 @@
+=== VRAM瓦片全彩渲染报告 ===
+
+总计渲染: 840 张PNG
+
+town_interior: 210 张
+battle_vram: 210 张
+menu_system: 210 张
+wm_menu: 210 张

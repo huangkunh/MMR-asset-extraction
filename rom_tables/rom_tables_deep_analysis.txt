@@ -1,0 +1,307 @@
+=== ROM数据表深度分析报告 ===
+
+ROM大小: 4194816 bytes
+真实数据表: 1213
+有效指针表: 11226
+
+--- 真实数据表 (Top 30) ---
+    Offset  Bank  Len  Recs 16bit                                 Record 0
+0x02FE84  $05   12    30     Y  00ffffffffffffffffffff25
+0x05C5A8  $0B   12    30     Y  000000000000000000000250
+0x02C020  $05    8    29     Y  b46026bf26bf26bf
+0x02FE88  $05    8    29     Y  ffffffffffffff25
+0x02FE90  $05   12    29     Y  09ffffffffffffffffffffff
+0x02FE9C  $05   12    29     Y  ffffffffffffff0e09ffffff
+0x05C5C0  $0B   12    29     Y  003304000000000000000000
+0x02C028  $05    8    28     Y  26bf26bf47bf26bf
+0x02FE80  $05    8    28     Y  0effff1800ffffff
+0x02C030  $05    8    27     Y  26bf26bf77bf26bf
+0x029C08  $05    8    26     Y  0b9b2f9c0a9b0a9b
+0x029C28  $05    8    26     Y  7b9b7b9b0b9bbc9b
+0x02C038  $05    8    26     Y  91bf26bfa9bf26bf
+0x05C580  $0B   16    26     Y  04000000000000000000000000000000
+0x05C5E4  $0B   12    26     Y  000000000000000000002000
+0x02FEA0  $05    8    25     Y  ffffff0e09ffffff
+0x02FF30  $05    8    25     Y  04ffffffff260bff
+0x029BF0  $05   12    24     Y  0a9b0a9b0a9b0a9b0a9b0a9b
+0x029C20  $05    8    24     Y  7b9b0b9b999c999c
+0x02C048  $05    8    24     Y  26bf26bfe3c226bf
+0x02FEA8  $05    8    24     Y  ffffff190bffff24
+0x05C5A0  $0B   16    24     Y  22040000000000000000000000000000
+0x02C050  $05    8    23     Y  b5c01cc126bf26bf
+0x02FF38  $05    8    23     Y  ffffff0410ffff04
+0x02FEE4  $05   12    23     Y  00ffffffffffffffffffff26
+0x020478  $04    8    22     Y  906b00cbf30003cb
+0x020480  $04    8    22     Y  f3000ccbf30011cb
+0x02C068  $05    8    22     Y  26bf26bf26bf26bf
+0x02FEB8  $05    8    22     Y  09ffff11071a0411
+0x02FEC8  $05    8    22     Y  ffffffffff260125
+
+--- 数据表详细分析 (Top 10) ---
+
+Offset: 0x02FE84 (Bank $05)
+  记录长度: 12B, 记录数: 30, 16位值: True
+  前5条记录:
+    [0] 00ffffffffffffffffffff25
+    [1] 09ffffffffffffffffffffff
+    [2] ffffffffffffff0e09ffffff
+    [3] ffffff190bffff2402190bff
+    [4] ffffff3109ffff11071a0411
+  字节统计:
+    Byte  0: min=  0 max=255 avg= 105.8 unique=8
+    Byte  1: min= 22 max=255 avg= 221.1 unique=4
+    Byte  2: min=  1 max=255 avg= 217.3 unique=4
+    Byte  3: min=  3 max=255 avg= 138.2 unique=10
+    Byte  4: min=  0 max=255 avg= 132.1 unique=10
+    Byte  5: min= 17 max=255 avg= 187.3 unique=5
+    Byte  6: min=  0 max=255 avg= 180.2 unique=7
+    Byte  7: min=  3 max=255 avg= 115.8 unique=8
+    Byte  8: min=  0 max=255 avg= 106.5 unique=9
+    Byte  9: min= 22 max=255 avg= 198.7 unique=6
+    Byte 10: min=  0 max=255 avg= 192.9 unique=5
+    Byte 11: min=  3 max=255 avg= 116.0 unique=9
+
+Offset: 0x05C5A8 (Bank $0B)
+  记录长度: 12B, 记录数: 30, 16位值: True
+  前5条记录:
+    [0] 000000000000000000000250
+    [1] 000000111300030001383c58
+    [2] 003304000000000000000000
+    [3] 000000000000000020b05f00
+    [4] 011704000001282c5a002204
+  字节统计:
+    Byte  0: min=  0 max=255 avg=  23.9 unique=5
+    Byte  1: min=  0 max=255 avg=  21.6 unique=7
+    Byte  2: min=  0 max=240 avg=  17.9 unique=7
+    Byte  3: min=  0 max=255 avg=  15.8 unique=5
+    Byte  4: min=  0 max= 96 avg=   8.7 unique=6
+    Byte  5: min=  0 max= 88 avg=  18.2 unique=8
+    Byte  6: min=  0 max=255 avg=  35.0 unique=7
+    Byte  7: min=  0 max=224 avg=  19.1 unique=6
+    Byte  8: min=  0 max=224 avg=  26.9 unique=9
+    Byte  9: min=  0 max=224 avg=  33.6 unique=8
+    Byte 10: min=  0 max=255 avg=  41.6 unique=11
+    Byte 11: min=  0 max=224 avg=  36.6 unique=9
+
+Offset: 0x02C020 (Bank $05)
+  记录长度: 8B, 记录数: 29, 16位值: True
+  前5条记录:
+    [0] b46026bf26bf26bf
+    [1] 26bf26bf47bf26bf
+    [2] 26bf26bf77bf26bf
+    [3] 91bf26bfa9bf26bf
+    [4] fdbf04c083c026bf
+  字节统计:
+    Byte  0: min= 28 max=253 avg=  73.8 unique=8
+    Byte  1: min= 96 max=194 avg= 186.7 unique=5
+    Byte  2: min=  4 max=253 avg=  49.1 unique=5
+    Byte  3: min=191 max=193 avg= 191.3 unique=3
+    Byte  4: min= 38 max=227 avg=  68.5 unique=8
+    Byte  5: min=191 max=194 avg= 191.4 unique=4
+    Byte  6: min= 38 max=215 avg=  52.0 unique=3
+    Byte  7: min=191 max=194 avg= 191.2 unique=3
+
+Offset: 0x02FE88 (Bank $05)
+  记录长度: 8B, 记录数: 29, 16位值: True
+  前5条记录:
+    [0] ffffffffffffff25
+    [1] 09ffffffffffffff
+    [2] ffffffffffffffff
+    [3] ffffff0e09ffffff
+    [4] ffffff190bffff24
+  字节统计:
+    Byte  0: min=  0 max=255 avg= 107.0 unique=12
+    Byte  1: min= 25 max=255 avg= 243.5 unique=2
+    Byte  2: min= 11 max=255 avg= 242.8 unique=2
+    Byte  3: min=  3 max=255 avg= 124.5 unique=10
+    Byte  4: min=  0 max=255 avg= 119.0 unique=8
+    Byte  5: min= 17 max=255 avg= 175.8 unique=7
+    Byte  6: min=  1 max=255 avg= 167.4 unique=6
+    Byte  7: min=  3 max=255 avg= 119.5 unique=10
+
+Offset: 0x02FE90 (Bank $05)
+  记录长度: 12B, 记录数: 29, 16位值: True
+  前5条记录:
+    [0] 09ffffffffffffffffffffff
+    [1] ffffffffffffff0e09ffffff
+    [2] ffffff190bffff2402190bff
+    [3] ffffff3109ffff11071a0411
+    [4] 07ffff13071308ffffffffff
+  字节统计:
+    Byte  0: min=  0 max=255 avg= 106.4 unique=9
+    Byte  1: min= 22 max=255 avg= 210.2 unique=4
+    Byte  2: min=  1 max=255 avg= 205.2 unique=5
+    Byte  3: min=  3 max=255 avg= 138.2 unique=10
+    Byte  4: min=  0 max=255 avg= 132.1 unique=10
+    Byte  5: min= 17 max=255 avg= 187.3 unique=5
+    Byte  6: min=  0 max=255 avg= 180.2 unique=7
+    Byte  7: min=  3 max=255 avg= 115.8 unique=8
+    Byte  8: min=  0 max=255 avg= 106.5 unique=9
+    Byte  9: min= 22 max=255 avg= 198.7 unique=6
+    Byte 10: min=  0 max=255 avg= 192.9 unique=5
+    Byte 11: min=  3 max=255 avg= 126.8 unique=8
+
+Offset: 0x02FE9C (Bank $05)
+  记录长度: 12B, 记录数: 29, 16位值: True
+  前5条记录:
+    [0] ffffffffffffff0e09ffffff
+    [1] ffffff190bffff2402190bff
+    [2] ffffff3109ffff11071a0411
+    [3] 07ffff13071308ffffffffff
+    [4] ff26012501ffff2607250729
+  字节统计:
+    Byte  0: min=  0 max=255 avg= 118.7 unique=8
+    Byte  1: min= 22 max=255 avg= 210.2 unique=4
+    Byte  2: min=  1 max=255 avg= 205.2 unique=5
+    Byte  3: min=  3 max=255 avg= 126.0 unique=11
+    Byte  4: min=  0 max=255 avg= 120.0 unique=11
+    Byte  5: min= 17 max=255 avg= 187.3 unique=5
+    Byte  6: min=  0 max=255 avg= 180.2 unique=7
+    Byte  7: min=  3 max=255 avg= 115.8 unique=8
+    Byte  8: min=  0 max=255 avg= 106.5 unique=9
+    Byte  9: min= 22 max=255 avg= 198.7 unique=6
+    Byte 10: min=  0 max=255 avg= 192.9 unique=5
+    Byte 11: min=  3 max=255 avg= 114.9 unique=9
+
+Offset: 0x05C5C0 (Bank $0B)
+  记录长度: 12B, 记录数: 29, 16位值: True
+  前5条记录:
+    [0] 003304000000000000000000
+    [1] 000000000000000020b05f00
+    [2] 011704000001282c5a002204
+    [3] 000000000000000000002000
+    [4] 000000000253e0e0e0011100
+  字节统计:
+    Byte  0: min=  0 max=255 avg=  26.4 unique=6
+    Byte  1: min=  0 max=255 avg=  21.6 unique=7
+    Byte  2: min=  0 max=240 avg=  23.9 unique=8
+    Byte  3: min=  0 max=255 avg=  21.3 unique=5
+    Byte  4: min=  0 max=128 avg=  15.8 unique=6
+    Byte  5: min=  0 max=128 avg=  24.9 unique=10
+    Byte  6: min=  0 max=255 avg=  35.8 unique=8
+    Byte  7: min=  0 max=224 avg=  20.1 unique=7
+    Byte  8: min=  0 max=224 avg=  27.1 unique=8
+    Byte  9: min=  0 max=224 avg=  30.8 unique=7
+    Byte 10: min=  0 max=255 avg=  38.5 unique=10
+    Byte 11: min=  0 max=224 avg=  28.6 unique=7
+
+Offset: 0x02C028 (Bank $05)
+  记录长度: 8B, 记录数: 28, 16位值: True
+  前5条记录:
+    [0] 26bf26bf47bf26bf
+    [1] 26bf26bf77bf26bf
+    [2] 91bf26bfa9bf26bf
+    [3] fdbf04c083c026bf
+    [4] 26bf26bfe3c226bf
+  字节统计:
+    Byte  0: min= 28 max=253 avg=  66.7 unique=7
+    Byte  1: min=191 max=194 avg= 191.4 unique=4
+    Byte  2: min=  4 max=253 avg=  49.1 unique=5
+    Byte  3: min=191 max=193 avg= 191.3 unique=3
+    Byte  4: min= 38 max=227 avg=  68.5 unique=8
+    Byte  5: min=191 max=194 avg= 191.4 unique=4
+    Byte  6: min= 38 max=215 avg=  52.0 unique=3
+    Byte  7: min=191 max=194 avg= 191.2 unique=3
+
+Offset: 0x02FE80 (Bank $05)
+  记录长度: 8B, 记录数: 28, 16位值: True
+  前5条记录:
+    [0] 0effff1800ffffff
+    [1] ffffffffffffff25
+    [2] 09ffffffffffffff
+    [3] ffffffffffffffff
+    [4] ffffff0e09ffffff
+  字节统计:
+    Byte  0: min=  0 max=255 avg= 106.8 unique=12
+    Byte  1: min= 25 max=255 avg= 243.5 unique=2
+    Byte  2: min= 11 max=255 avg= 242.8 unique=2
+    Byte  3: min=  3 max=255 avg= 124.5 unique=10
+    Byte  4: min=  0 max=255 avg= 119.0 unique=8
+    Byte  5: min= 17 max=255 avg= 175.8 unique=7
+    Byte  6: min=  1 max=255 avg= 167.4 unique=6
+    Byte  7: min=  3 max=255 avg= 119.5 unique=10
+
+Offset: 0x02C030 (Bank $05)
+  记录长度: 8B, 记录数: 27, 16位值: True
+  前5条记录:
+    [0] 26bf26bf77bf26bf
+    [1] 91bf26bfa9bf26bf
+    [2] fdbf04c083c026bf
+    [3] 26bf26bfe3c226bf
+    [4] b5c01cc126bf26bf
+  字节统计:
+    Byte  0: min= 28 max=253 avg=  66.7 unique=7
+    Byte  1: min=191 max=194 avg= 191.4 unique=4
+    Byte  2: min=  4 max=253 avg=  49.1 unique=5
+    Byte  3: min=191 max=193 avg= 191.3 unique=3
+    Byte  4: min= 38 max=227 avg=  66.8 unique=7
+    Byte  5: min=191 max=194 avg= 191.4 unique=4
+    Byte  6: min= 38 max=215 avg=  52.0 unique=3
+    Byte  7: min=191 max=194 avg= 191.2 unique=3
+
+--- 有效指针表 (Top 30) ---
+    Offset  Bank  Ptrs  Unique Valid                Range
+0x031C9C  $06   200    152    10  $AB09-$FFB8
+0x031C9E  $06   200    152    10  $AB09-$FFB8
+0x031CA0  $06   200    151    10  $AB09-$FFB8
+0x031CA2  $06   200    150    10  $AB09-$FFB8
+0x031CA4  $06   200    150    10  $AB09-$FFB8
+0x031CA6  $06   200    150    10  $AB09-$FFB8
+0x031CA8  $06   200    150    10  $AB09-$FFB8
+0x031CAA  $06   200    149    10  $AB09-$FFB8
+0x031CAC  $06   200    148    10  $AB09-$FFB8
+0x031CAE  $06   200    147    10  $AB09-$FFB8
+0x031CB0  $06   200    147    10  $AB09-$FFB8
+0x031CB2  $06   200    147    10  $AB09-$FFB8
+0x031CB4  $06   200    146    10  $AB09-$FFB8
+0x031CB6  $06   200    145    10  $AB09-$FFB8
+0x031CB8  $06   200    144    10  $AB09-$FFB8
+0x031CBA  $06   200    143    10  $AB09-$FFB8
+0x031CBC  $06   200    142    10  $AB09-$FFB8
+0x031CBE  $06   200    141    10  $AB09-$FFB8
+0x031CC0  $06   200    140    10  $AB09-$FFB8
+0x031CC2  $06   200    139    10  $AB09-$FFB8
+0x031CC4  $06   200    138    10  $AB09-$FFB8
+0x031CC6  $06   200    138    10  $AB09-$FFB8
+0x031CC8  $06   200    138    10  $AB09-$FFB8
+0x031CCA  $06   200    137    10  $AB09-$FFB8
+0x031CCC  $06   200    136    10  $AB09-$FFB8
+0x031CCE  $06   200    135    10  $AB09-$FFB8
+0x031CD0  $06   200    135    10  $AB09-$FFB8
+0x031CD2  $06   200    135    10  $AB09-$FFB8
+0x031CD4  $06   200    135    10  $AB09-$FFB8
+0x031CD6  $06   200    135    10  $AB09-$FFB8
+
+--- 指针表0x029BE4详细分析 ---
+指针数: 6, 非空目标: 100
+前30个目标:
+  ptr=0x9d75 -> offset=0x29d75 data=0300c2207a605aa634a436e220b96400
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b7b -> offset=0x29b7b data=208c99aae220bf5f9f9885e1fa7ac220
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0b -> offset=0x29b0b data=00d009b95e00298000f001e8b95e0029
+  ptr=0x9ce9 -> offset=0x29ce9 data=9b269c7b9b7b9b0a9b0a9b0a9b0b9b26
+  ptr=0x9d45 -> offset=0x29d45 data=20be7400bd300029ff00eb18690080aa
+  ptr=0x9b7b -> offset=0x29b7b data=208c99aae220bf5f9f9885e1fa7ac220
+  ptr=0x9b0b -> offset=0x29b0b data=00d009b95e00298000f001e8b95e0029
+  ptr=0x9c2f -> offset=0x29c2f data=9bc79b269c269c2f9c0b9b2f9c0a9b7b
+  ptr=0x9b0b -> offset=0x29b0b data=00d009b95e00298000f001e8b95e0029
+  ptr=0x9c2f -> offset=0x29c2f data=9bc79b269c269c2f9c0b9b2f9c0a9b7b
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b0a -> offset=0x29b0a data=0400d009b95e00298000f001e8b95e00
+  ptr=0x9b7b -> offset=0x29b7b data=208c99aae220bf5f9f9885e1fa7ac220
+  ptr=0x9b0b -> offset=0x29b0b data=00d009b95e00298000f001e8b95e0029

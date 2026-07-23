@@ -1,0 +1,2309 @@
+{
+  "summary": {
+    "rom_size": 4194816,
+    "banks_scanned": 8,
+    "repeated_record_tables": 6469,
+    "pointer_tables": 2205,
+    "string_entries": 3159,
+    "numeric_tables": 3165,
+    "potential_enemy_tables": 50
+  },
+  "repeated_record_tables": [
+    {
+      "offset": 388056,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388060,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388064,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388068,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388072,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388076,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388080,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388084,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388088,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388092,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388096,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388100,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388104,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388108,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388112,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388116,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388120,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388124,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388128,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388132,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388136,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388140,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388144,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388148,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388152,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388156,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388160,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388164,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388168,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    },
+    {
+      "offset": 388172,
+      "rec_len": 4,
+      "num_recs": 200,
+      "score": 200.0,
+      "avg_similarity": 1.0,
+      "sample": "ffffffff"
+    }
+  ],
+  "pointer_tables": [
+    {
+      "offset": 170980,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40309
+      ],
+      "bank_hint": 11,
+      "first_ptrs": [
+        "0x9d75",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b7b",
+        "0x9b0a",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 170996,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40261
+      ],
+      "bank_hint": 10,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0b",
+        "0x9ce9",
+        "0x9d45",
+        "0x9b7b"
+      ]
+    },
+    {
+      "offset": 170998,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40261
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0b",
+        "0x9ce9",
+        "0x9d45",
+        "0x9b7b",
+        "0x9b0b"
+      ]
+    },
+    {
+      "offset": 171000,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40261
+      ],
+      "bank_hint": 123,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0b",
+        "0x9ce9",
+        "0x9d45",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c2f"
+      ]
+    },
+    {
+      "offset": 171002,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40261
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b0b",
+        "0x9ce9",
+        "0x9d45",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0b"
+      ]
+    },
+    {
+      "offset": 171004,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40261
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0b",
+        "0x9ce9",
+        "0x9d45",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f"
+      ]
+    },
+    {
+      "offset": 171006,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40261
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9ce9",
+        "0x9d45",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 171008,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40261
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9d45",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 171010,
+      "num_ptrs": 100,
+      "unique_ptrs": 13,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 171012,
+      "num_ptrs": 100,
+      "unique_ptrs": 13,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 171014,
+      "num_ptrs": 100,
+      "unique_ptrs": 13,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 171016,
+      "num_ptrs": 100,
+      "unique_ptrs": 13,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 171028,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9b7b",
+        "0x9b0b"
+      ]
+    },
+    {
+      "offset": 171030,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c99"
+      ]
+    },
+    {
+      "offset": 171032,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b0a",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c99",
+        "0x9c99"
+      ]
+    },
+    {
+      "offset": 171034,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 252,
+      "first_ptrs": [
+        "0x9b0a",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c99",
+        "0x9c99",
+        "0x9b7b"
+      ]
+    },
+    {
+      "offset": 171036,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40089
+      ],
+      "bank_hint": 147,
+      "first_ptrs": [
+        "0x9b7b",
+        "0x9b0b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c99",
+        "0x9c99",
+        "0x9b7b",
+        "0x9b7b"
+      ]
+    },
+    {
+      "offset": 171038,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 147,
+      "first_ptrs": [
+        "0x9b0b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c99",
+        "0x9c99",
+        "0x9b7b",
+        "0x9b7b",
+        "0x9b0b"
+      ]
+    },
+    {
+      "offset": 171040,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 123,
+      "first_ptrs": [
+        "0x9b7b",
+        "0x9b0b",
+        "0x9c99",
+        "0x9c99",
+        "0x9b7b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9bbc"
+      ]
+    },
+    {
+      "offset": 171042,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 38,
+      "first_ptrs": [
+        "0x9b0b",
+        "0x9c99",
+        "0x9c99",
+        "0x9b7b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9bbc",
+        "0x9bc7"
+      ]
+    },
+    {
+      "offset": 171044,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 123,
+      "first_ptrs": [
+        "0x9c99",
+        "0x9c99",
+        "0x9b7b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9bbc",
+        "0x9bc7",
+        "0x9c26"
+      ]
+    },
+    {
+      "offset": 171046,
+      "num_ptrs": 100,
+      "unique_ptrs": 15,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 123,
+      "first_ptrs": [
+        "0x9c99",
+        "0x9b7b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9bbc",
+        "0x9bc7",
+        "0x9c26",
+        "0x9c26"
+      ]
+    },
+    {
+      "offset": 171048,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 10,
+      "first_ptrs": [
+        "0x9b7b",
+        "0x9b7b",
+        "0x9b0b",
+        "0x9bbc",
+        "0x9bc7",
+        "0x9c26",
+        "0x9c26",
+        "0x9c2f"
+      ]
+    },
+    {
+      "offset": 171050,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 10,
+      "first_ptrs": [
+        "0x9b7b",
+        "0x9b0b",
+        "0x9bbc",
+        "0x9bc7",
+        "0x9c26",
+        "0x9c26",
+        "0x9c2f",
+        "0x9b0b"
+      ]
+    },
+    {
+      "offset": 171052,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 10,
+      "first_ptrs": [
+        "0x9b0b",
+        "0x9bbc",
+        "0x9bc7",
+        "0x9c26",
+        "0x9c26",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f"
+      ]
+    },
+    {
+      "offset": 171054,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 11,
+      "first_ptrs": [
+        "0x9bbc",
+        "0x9bc7",
+        "0x9c26",
+        "0x9c26",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a"
+      ]
+    },
+    {
+      "offset": 171056,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 38,
+      "first_ptrs": [
+        "0x9bc7",
+        "0x9c26",
+        "0x9c26",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b7b"
+      ]
+    },
+    {
+      "offset": 171058,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 38,
+      "first_ptrs": [
+        "0x9c26",
+        "0x9c26",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b7b",
+        "0x9c2f"
+      ]
+    },
+    {
+      "offset": 171060,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 10,
+      "first_ptrs": [
+        "0x9c26",
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b7b",
+        "0x9c2f",
+        "0x9c2f"
+      ]
+    },
+    {
+      "offset": 171062,
+      "num_ptrs": 100,
+      "unique_ptrs": 14,
+      "ptr_range": [
+        39690,
+        40339
+      ],
+      "bank_hint": 11,
+      "first_ptrs": [
+        "0x9c2f",
+        "0x9b0b",
+        "0x9c2f",
+        "0x9b0a",
+        "0x9b7b",
+        "0x9c2f",
+        "0x9c2f",
+        "0x9b0b"
+      ]
+    }
+  ],
+  "enemy_data_candidates": [
+    {
+      "offset": "0x20009",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 50,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x2001b",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 50,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x20051",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 48,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          250.4
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x20063",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 46,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          250.2
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x2000b",
+      "bank": 4,
+      "rec_len": 11,
+      "num_recs": 46,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          250.2
+        ],
+        [
+          82,
+          255,
+          251.2
+        ],
+        [
+          142,
+          255,
+          252.5
+        ],
+        [
+          128,
+          255,
+          252.2
+        ],
+        [
+          11,
+          255,
+          249.7
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x20016",
+      "bank": 4,
+      "rec_len": 11,
+      "num_recs": 45,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          250.1
+        ],
+        [
+          82,
+          255,
+          251.2
+        ],
+        [
+          142,
+          255,
+          252.5
+        ],
+        [
+          128,
+          255,
+          252.2
+        ],
+        [
+          11,
+          255,
+          249.6
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x20075",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 44,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          250.0
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x20021",
+      "bank": 4,
+      "rec_len": 11,
+      "num_recs": 44,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          250.0
+        ],
+        [
+          82,
+          255,
+          251.1
+        ],
+        [
+          142,
+          255,
+          252.4
+        ],
+        [
+          128,
+          255,
+          252.1
+        ],
+        [
+          11,
+          255,
+          249.5
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x20099",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 40,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          249.5
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x2000d",
+      "bank": 4,
+      "rec_len": 13,
+      "num_recs": 39,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          249.3
+        ],
+        [
+          82,
+          255,
+          250.6
+        ],
+        [
+          142,
+          255,
+          252.1
+        ],
+        [
+          128,
+          255,
+          251.7
+        ],
+        [
+          11,
+          255,
+          248.7
+        ],
+        [
+          128,
+          255,
+          251.7
+        ],
+        [
+          132,
+          255,
+          251.8
+        ],
+        [
+          0,
+          255,
+          248.5
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x200ab",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 38,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          249.2
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x2001a",
+      "bank": 4,
+      "rec_len": 13,
+      "num_recs": 38,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          249.2
+        ],
+        [
+          82,
+          255,
+          250.4
+        ],
+        [
+          142,
+          255,
+          252.0
+        ],
+        [
+          128,
+          255,
+          251.7
+        ],
+        [
+          11,
+          255,
+          248.6
+        ],
+        [
+          128,
+          255,
+          251.7
+        ],
+        [
+          132,
+          255,
+          251.8
+        ],
+        [
+          0,
+          255,
+          248.3
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x20027",
+      "bank": 4,
+      "rec_len": 13,
+      "num_recs": 37,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          249.0
+        ],
+        [
+          82,
+          255,
+          250.3
+        ],
+        [
+          142,
+          255,
+          251.9
+        ],
+        [
+          128,
+          255,
+          251.6
+        ],
+        [
+          11,
+          255,
+          248.4
+        ],
+        [
+          128,
+          255,
+          251.6
+        ],
+        [
+          132,
+          255,
+          251.7
+        ],
+        [
+          0,
+          255,
+          248.1
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x20079",
+      "bank": 4,
+      "rec_len": 11,
+      "num_recs": 36,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          248.9
+        ],
+        [
+          82,
+          255,
+          250.2
+        ],
+        [
+          142,
+          255,
+          251.9
+        ],
+        [
+          128,
+          255,
+          251.5
+        ],
+        [
+          11,
+          255,
+          248.2
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x200cf",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 34,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          248.5
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x2008f",
+      "bank": 4,
+      "rec_len": 11,
+      "num_recs": 34,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          248.5
+        ],
+        [
+          82,
+          255,
+          249.9
+        ],
+        [
+          142,
+          255,
+          251.7
+        ],
+        [
+          128,
+          255,
+          251.3
+        ],
+        [
+          11,
+          255,
+          247.8
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x200f3",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 30,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          247.6
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    },
+    {
+      "offset": "0x200bb",
+      "bank": 4,
+      "rec_len": 11,
+      "num_recs": 30,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          247.6
+        ],
+        [
+          82,
+          255,
+          249.2
+        ],
+        [
+          142,
+          255,
+          251.2
+        ],
+        [
+          128,
+          255,
+          250.8
+        ],
+        [
+          11,
+          255,
+          246.9
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x20011",
+      "bank": 4,
+      "rec_len": 17,
+      "num_recs": 29,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffffffffffffffffffff"
+    },
+    {
+      "offset": "0x20105",
+      "bank": 4,
+      "rec_len": 9,
+      "num_recs": 28,
+      "has_16bit_values": false,
+      "byte_ranges": [
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          255,
+          255,
+          255.0
+        ],
+        [
+          34,
+          255,
+          247.1
+        ]
+      ],
+      "first_record_hex": "ffffffffffffffffff",
+      "second_record_hex": "ffffffffffffffffff",
+      "third_record_hex": "ffffffffffffffffff"
+    }
+  ],
+  "numeric_tables": [
+    {
+      "offset": 131721,
+      "length": 17,
+      "sample": "d8010002ffff006301000e7e011d0001"
+    },
+    {
+      "offset": 131810,
+      "length": 17,
+      "sample": "8084004b818400000855001c1e005700"
+    },
+    {
+      "offset": 131827,
+      "length": 30,
+      "sample": "ce005800004f00001f1b56201b205d00"
+    },
+    {
+      "offset": 131891,
+      "length": 20,
+      "sample": "00a39c001f8e00581f9100441c1f6400"
+    },
+    {
+      "offset": 131911,
+      "length": 38,
+      "sample": "a38006185f55001c1d011e00570000ce"
+    },
+    {
+      "offset": 131949,
+      "length": 20,
+      "sample": "6e03204803154d5e47414a455e031c41"
+    },
+    {
+      "offset": 131969,
+      "length": 25,
+      "sample": "6c6c5108606e03154d5e4b4c03205e44"
+    },
+    {
+      "offset": 131994,
+      "length": 20,
+      "sample": "6c6c5108606e4d0321031c45031e5e4b"
+    },
+    {
+      "offset": 132017,
+      "length": 39,
+      "sample": "6c6c6c5104606e44410320415e45414d"
+    },
+    {
+      "offset": 132063,
+      "length": 16,
+      "sample": "070f17c08400081c19da0bf400002b22"
+    },
+    {
+      "offset": 132614,
+      "length": 16,
+      "sample": "cc9b13000663077e0658066204930004"
+    },
+    {
+      "offset": 132698,
+      "length": 79,
+      "sample": "9da1cbc30326000a0c0c0b0b0b0a0d0b"
+    },
+    {
+      "offset": 132933,
+      "length": 16,
+      "sample": "00b8b9babb00000855001c1e00570000"
+    },
+    {
+      "offset": 132949,
+      "length": 18,
+      "sample": "ce005800004f00001f1b562014f3d882"
+    },
+    {
+      "offset": 132980,
+      "length": 16,
+      "sample": "9c001c1f68000fa37a001f640001631b"
+    },
+    {
+      "offset": 133006,
+      "length": 16,
+      "sample": "a36300a256001f220affa2230a1f260a"
+    },
+    {
+      "offset": 133045,
+      "length": 17,
+      "sample": "80061c027a000200001412e482061815"
+    },
+    {
+      "offset": 133083,
+      "length": 25,
+      "sample": "1b21440000c07f214a0000c6ea213400"
+    },
+    {
+      "offset": 133109,
+      "length": 17,
+      "sample": "3400713600ab4a000044007436007434"
+    },
+    {
+      "offset": 133126,
+      "length": 19,
+      "sample": "e23600340044000080171c5014171f66"
+    },
+    {
+      "offset": 133161,
+      "length": 20,
+      "sample": "00161f67000414bce6811d021e020105"
+    },
+    {
+      "offset": 133218,
+      "length": 18,
+      "sample": "0504873b001fab060f143482841c1c50"
+    },
+    {
+      "offset": 133254,
+      "length": 18,
+      "sample": "04070700a26b000517060e736b001c50"
+    },
+    {
+      "offset": 133290,
+      "length": 18,
+      "sample": "04070700a26b000517060e736b001c50"
+    },
+    {
+      "offset": 133332,
+      "length": 18,
+      "sample": "000517060e736b00a268001d011f6400"
+    },
+    {
+      "offset": 133362,
+      "length": 18,
+      "sample": "82016a0001131f6a001705496a000206"
+    },
+    {
+      "offset": 133386,
+      "length": 19,
+      "sample": "82016a0001171f6a001305466a000206"
+    },
+    {
+      "offset": 133405,
+      "length": 16,
+      "sample": "9f300080002e300003013000020015e1"
+    },
+    {
+      "offset": 133422,
+      "length": 21,
+      "sample": "8201690001041f69000a051f69000406"
+    },
+    {
+      "offset": 133444,
+      "length": 16,
+      "sample": "820e181f6800031f6900121f6a000f1f"
+    }
+  ]
+}

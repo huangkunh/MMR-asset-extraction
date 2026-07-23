@@ -1,0 +1,232 @@
+=== ROM数据表提取报告 ===
+
+ROM大小: 4194816 bytes
+扫描bank数: 8
+
+--- 重复记录表 (Top 20) ---
+    Offset  Len  Recs  Score   Sim               Sample
+0x05EBD8     4   200  200.0  1.00  ffffffff
+0x05EBDC     4   200  200.0  1.00  ffffffff
+0x05EBE0     4   200  200.0  1.00  ffffffff
+0x05EBE4     4   200  200.0  1.00  ffffffff
+0x05EBE8     4   200  200.0  1.00  ffffffff
+0x05EBEC     4   200  200.0  1.00  ffffffff
+0x05EBF0     4   200  200.0  1.00  ffffffff
+0x05EBF4     4   200  200.0  1.00  ffffffff
+0x05EBF8     4   200  200.0  1.00  ffffffff
+0x05EBFC     4   200  200.0  1.00  ffffffff
+0x05EC00     4   200  200.0  1.00  ffffffff
+0x05EC04     4   200  200.0  1.00  ffffffff
+0x05EC08     4   200  200.0  1.00  ffffffff
+0x05EC0C     4   200  200.0  1.00  ffffffff
+0x05EC10     4   200  200.0  1.00  ffffffff
+0x05EC14     4   200  200.0  1.00  ffffffff
+0x05EC18     4   200  200.0  1.00  ffffffff
+0x05EC1C     4   200  200.0  1.00  ffffffff
+0x05EC20     4   200  200.0  1.00  ffffffff
+0x05EC24     4   200  200.0  1.00  ffffffff
+
+--- 指针表 (Top 20) ---
+    Offset  Ptrs  Unique                Range                               First ptrs
+0x029BE4    100     14    $9B0A-$9D75  0x9d75 0x9b0a 0x9b0a 0x9b0a
+0x029BF4    100     14    $9B0A-$9D45  0x9b0a 0x9b0a 0x9b0a 0x9b0a
+0x029BF6    100     14    $9B0A-$9D45  0x9b0a 0x9b0a 0x9b0a 0x9b0b
+0x029BF8    100     15    $9B0A-$9D45  0x9b0a 0x9b0a 0x9b0b 0x9ce9
+0x029BFA    100     15    $9B0A-$9D45  0x9b0a 0x9b0b 0x9ce9 0x9d45
+0x029BFC    100     15    $9B0A-$9D45  0x9b0b 0x9ce9 0x9d45 0x9b7b
+0x029BFE    100     15    $9B0A-$9D45  0x9ce9 0x9d45 0x9b7b 0x9b0b
+0x029C00    100     14    $9B0A-$9D45  0x9d45 0x9b7b 0x9b0b 0x9c2f
+0x029C02    100     13    $9B0A-$9C99  0x9b7b 0x9b0b 0x9c2f 0x9b0b
+0x029C04    100     13    $9B0A-$9C99  0x9b0b 0x9c2f 0x9b0b 0x9c2f
+0x029C06    100     13    $9B0A-$9C99  0x9c2f 0x9b0b 0x9c2f 0x9b0a
+0x029C08    100     13    $9B0A-$9C99  0x9b0b 0x9c2f 0x9b0a 0x9b0a
+0x029C14    100     14    $9B0A-$9C99  0x9b0a 0x9b0a 0x9b0a 0x9b0a
+0x029C16    100     14    $9B0A-$9C99  0x9b0a 0x9b0a 0x9b0a 0x9b7b
+0x029C18    100     14    $9B0A-$9C99  0x9b0a 0x9b0a 0x9b7b 0x9b0b
+0x029C1A    100     14    $9B0A-$9C99  0x9b0a 0x9b7b 0x9b0b 0x9b7b
+0x029C1C    100     14    $9B0A-$9C99  0x9b7b 0x9b0b 0x9b7b 0x9b0b
+0x029C1E    100     15    $9B0A-$9D93  0x9b0b 0x9b7b 0x9b0b 0x9c99
+0x029C20    100     15    $9B0A-$9D93  0x9b7b 0x9b0b 0x9c99 0x9c99
+0x029C22    100     15    $9B0A-$9D93  0x9b0b 0x9c99 0x9c99 0x9b7b
+
+--- 可能的敌人/角色数据表 ---
+
+Offset: 0x20009 (Bank $04)
+  记录长度: 9B, 记录数: 50, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+Offset: 0x2001b (Bank $04)
+  记录长度: 9B, 记录数: 50, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+Offset: 0x20051 (Bank $04)
+  记录长度: 9B, 记录数: 48, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+Offset: 0x20063 (Bank $04)
+  记录长度: 9B, 记录数: 46, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+Offset: 0x2000b (Bank $04)
+  记录长度: 11B, 记录数: 46, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (34, 255, 250.2), (82, 255, 251.2)]
+  Record 0: ffffffffffffffffffffff
+  Record 1: ffffffffffffffffffffff
+  Record 2: ffffffffffffffffffffff
+
+Offset: 0x20016 (Bank $04)
+  记录长度: 11B, 记录数: 45, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (34, 255, 250.1), (82, 255, 251.2)]
+  Record 0: ffffffffffffffffffffff
+  Record 1: ffffffffffffffffffffff
+  Record 2: ffffffffffffffffffffff
+
+Offset: 0x20075 (Bank $04)
+  记录长度: 9B, 记录数: 44, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+Offset: 0x20021 (Bank $04)
+  记录长度: 11B, 记录数: 44, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (34, 255, 250.0), (82, 255, 251.1)]
+  Record 0: ffffffffffffffffffffff
+  Record 1: ffffffffffffffffffffff
+  Record 2: ffffffffffffffffffffff
+
+Offset: 0x20099 (Bank $04)
+  记录长度: 9B, 记录数: 40, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+Offset: 0x2000d (Bank $04)
+  记录长度: 13B, 记录数: 39, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (34, 255, 249.3), (82, 255, 250.6), (142, 255, 252.1)]
+  Record 0: ffffffffffffffffffffffffff
+  Record 1: ffffffffffffffffffffffffff
+  Record 2: ffffffffffffffffffffffffff
+
+Offset: 0x200ab (Bank $04)
+  记录长度: 9B, 记录数: 38, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+Offset: 0x2001a (Bank $04)
+  记录长度: 13B, 记录数: 38, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (34, 255, 249.2), (82, 255, 250.4), (142, 255, 252.0)]
+  Record 0: ffffffffffffffffffffffffff
+  Record 1: ffffffffffffffffffffffffff
+  Record 2: ffffffffffffffffffffffffff
+
+Offset: 0x20027 (Bank $04)
+  记录长度: 13B, 记录数: 37, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (34, 255, 249.0), (82, 255, 250.3), (142, 255, 251.9)]
+  Record 0: ffffffffffffffffffffffffff
+  Record 1: ffffffffffffffffffffffffff
+  Record 2: ffffffffffffffffffffffffff
+
+Offset: 0x20079 (Bank $04)
+  记录长度: 11B, 记录数: 36, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (34, 255, 248.9), (82, 255, 250.2)]
+  Record 0: ffffffffffffffffffffff
+  Record 1: ffffffffffffffffffffff
+  Record 2: ffffffffffffffffffffff
+
+Offset: 0x200cf (Bank $04)
+  记录长度: 9B, 记录数: 34, 含16位值: False
+  字节范围: [(255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0), (255, 255, 255.0)]
+  Record 0: ffffffffffffffffff
+  Record 1: ffffffffffffffffff
+  Record 2: ffffffffffffffffff
+
+--- 数值数据表 (Top 20) ---
+    Offset Length                                   Sample
+0x020289     17   d8010002ffff006301000e7e011d0001
+0x0202E2     17   8084004b818400000855001c1e005700
+0x0202F3     30   ce005800004f00001f1b56201b205d00
+0x020333     20   00a39c001f8e00581f9100441c1f6400
+0x020347     38   a38006185f55001c1d011e00570000ce
+0x02036D     20   6e03204803154d5e47414a455e031c41
+0x020381     25   6c6c5108606e03154d5e4b4c03205e44
+0x02039A     20   6c6c5108606e4d0321031c45031e5e4b
+0x0203B1     39   6c6c6c5104606e44410320415e45414d
+0x0203DF     16   070f17c08400081c19da0bf400002b22
+0x020606     16   cc9b13000663077e0658066204930004
+0x02065A     79   9da1cbc30326000a0c0c0b0b0b0a0d0b
+0x020745     16   00b8b9babb00000855001c1e00570000
+0x020755     18   ce005800004f00001f1b562014f3d882
+0x020774     16   9c001c1f68000fa37a001f640001631b
+0x02078E     16   a36300a256001f220affa2230a1f260a
+0x0207B5     17   80061c027a000200001412e482061815
+0x0207DB     25   1b21440000c07f214a0000c6ea213400
+0x0207F5     17   3400713600ab4a000044007436007434
+0x020806     19   e23600340044000080171c5014171f66
+
+--- 字符串 (Top 50) ---
+0x02020F [ 14B] 岬ｻ韋韋�ｻkｦｹ漾
+0x020228 [  5B] �ｹdｻｩ
+0x020263 [  5B] 園ｩ│
+0x020276 [  5B] �m"lｾ
+0x02027E [ 12B] ÷ｦｻ韋韋�ｻkﾘ
+0x0202BC [  5B] 操ﾂ ｩ
+0x0202E1 [  7B] 騾� K＞
+0x02045E [  7B] ÷"ｬ死"
+0x020466 [  5B] ＞"qｾ
+0x02053A [ 12B] �ﾟ� w�c� sd}
+0x02058E [  9B] �c� l桂� 
+0x020604 [  5B] 擶ﾌ�
+0x020621 [  7B] 岫ﾌ撩ﾌｩ
+0x020631 [  5B] 棊ﾛ� 
+0x02063E [  7B] �ﾌ罍｢ｨｶ
+0x02064F [  6B] 攵擅ﾋﾃ
+0x020658 [  6B] 攵擅ﾋﾃ
+0x0206F2 [  8B] ≠� у��
+0x0208F0 [  5B] 痼�j
+0x020908 [  5B] 痼�j
+0x02092C [  5B] 痼�i
+0x020CDB [  5B] 哩Ｔj
+0x020D27 [  5B] 痼�j
+0x020D48 [  5B] 痼ａj
+0x020E0C [  5B] 哩ＤP
+0x02121B [  6B] �^� ﾀj
+0x021228 [  6B] Э� ﾀj
+0x0212D6 [  5B] 痼ａj
+0x0212EE [  5B] 痼ａj
+0x021405 [  5B] 痼�j
+0x02141E [  5B] 痼ａj
+0x021481 [  9B] 玩�e痰�t
+0x02161B [  7B] 玩�e痰
+0x021762 [  6B] ��fg!^
+0x02180C [  5B] 痼ａj
+0x0218CA [  8B] 窒`�Uｴ奸
+0x021B5E [  5B] 嚠�j
+0x021B82 [  5B] 嚠�j
+0x021BB2 [  5B] 嚠�i
+0x021CE7 [  5B] Э� P
+0x021D2C [  5B] 痼�j
+0x021D44 [  5B] 痼�j
+0x021E23 [  8B] 窒`�Uｴ奸
+0x021E3A [  7B] 玩�_氓
+0x022102 [  5B] 痼�j
+0x02211F [  5B] 痼ａj
+0x0221FD [  9B] 玩�ｪ痰�t
+0x0223EC [  7B] 玩�ｪ痰
+0x022578 [  6B] ��}x!^
+0x022669 [  5B] 痼�j
