@@ -1,0 +1,5 @@
+SPC RAM Comparison Between Scenes
+
+Town vs Title: 5549 bytes differ (8.5%)
+WorldMap vs Title: 5670 bytes differ (8.7%)
+WorldMap vs Town: 4253 bytes differ (6.5%)

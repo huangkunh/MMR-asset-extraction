@@ -1,0 +1,87 @@
+=== World Map - DSP Register Analysis ===
+
+--- Voice Status ---
+  Voice 0: ACTIVE
+    Volume: L=255 R=0
+    Pitch: 0 (0.0 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=1 R=2
+    Gain: 142, Envelope: 126, Output: 103
+
+  Voice 1: ACTIVE
+    Volume: L=2 R=238
+    Pitch: 33664 (8.2 Hz approx)
+    Source: SRCN=0x40
+    ADSR: A=3 D=11 S=3 R=30
+    Gain: 128, Envelope: 59, Output: 126
+
+  Voice 2: ACTIVE
+    Volume: L=166 R=0
+    Pitch: 21250 (5.2 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=0 R=0
+    Gain: 0, Envelope: 0, Output: 0
+
+  Voice 3: idle
+    Volume: L=0 R=0
+    Pitch: 255 (0.1 Hz approx)
+    Source: SRCN=0x70
+    ADSR: A=0 D=0 S=3 R=12
+    Gain: 0, Envelope: 0, Output: 0
+
+  Voice 4: ACTIVE
+    Volume: L=0 R=0
+    Pitch: 8192 (2.0 Hz approx)
+    Source: SRCN=0x03
+    ADSR: A=8 D=0 S=4 R=3
+    Gain: 21, Envelope: 4, Output: 127
+
+  Voice 5: ACTIVE
+    Volume: L=0 R=4
+    Pitch: 256 (0.1 Hz approx)
+    Source: SRCN=0x07
+    ADSR: A=0 D=6 S=0 R=0
+    Gain: 0, Envelope: 0, Output: 82
+
+  Voice 6: idle
+    Volume: L=0 R=0
+    Pitch: 0 (0.0 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=0 R=0
+    Gain: 16, Envelope: 0, Output: 0
+
+  Voice 7: idle
+    Volume: L=0 R=0
+    Pitch: 38784 (9.5 Hz approx)
+    Source: SRCN=0x3D
+    ADSR: A=15 D=8 S=4 R=24
+    Gain: 0, Envelope: 0, Output: 0
+
+--- Global Registers ---
+  Master Volume: L=0 R=4
+  KEYON: 0x00 KEYOFF: 0x00
+  DIR (sample dir): 0x00
+  ESA (echo start): 0x00
+  EDL (echo delay): 0
+
+--- SPC RAM Analysis ---
+  Total: 65536 bytes
+  Non-zero: 36384 bytes (55.5%)
+  Sample dir table at SPC RAM 0x0000
+  First 16 sample pointers:
+    Sample 0: 0x00FF
+    Sample 1: 0x0000
+    Sample 2: 0x0000
+    Sample 3: 0x0000
+    Sample 4: 0x0000
+    Sample 5: 0x2200
+    Sample 6: 0x8E22
+    Sample 7: 0x7E8E
+    Sample 8: 0x677E
+    Sample 9: 0x0067
+    Sample 10: 0x7E00
+    Sample 11: 0x007E
+    Sample 12: 0x0000
+    Sample 13: 0x0000
+    Sample 14: 0x0000
+    Sample 15: 0x0200

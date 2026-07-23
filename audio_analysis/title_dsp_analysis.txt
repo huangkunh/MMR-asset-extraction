@@ -1,0 +1,87 @@
+=== Title Screen - DSP Register Analysis ===
+
+--- Voice Status ---
+  Voice 0: idle
+    Volume: L=0 R=0
+    Pitch: 0 (0.0 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=0 R=0
+    Gain: 0, Envelope: 0, Output: 0
+
+  Voice 1: idle
+    Volume: L=0 R=0
+    Pitch: 0 (0.0 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=0 R=0
+    Gain: 0, Envelope: 0, Output: 0
+
+  Voice 2: idle
+    Volume: L=0 R=0
+    Pitch: 255 (0.1 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=0 R=0
+    Gain: 0, Envelope: 0, Output: 0
+
+  Voice 3: idle
+    Volume: L=0 R=0
+    Pitch: 255 (0.1 Hz approx)
+    Source: SRCN=0x82
+    ADSR: A=0 D=0 S=3 R=16
+    Gain: 0, Envelope: 0, Output: 40
+
+  Voice 4: ACTIVE
+    Volume: L=64 R=64
+    Pitch: 16448 (4.0 Hz approx)
+    Source: SRCN=0x03
+    ADSR: A=12 D=15 S=4 R=7
+    Gain: 128, Envelope: 144, Output: 126
+
+  Voice 5: ACTIVE
+    Volume: L=0 R=4
+    Pitch: 1 (0.0 Hz approx)
+    Source: SRCN=0x07
+    ADSR: A=0 D=6 S=4 R=0
+    Gain: 128, Envelope: 0, Output: 153
+
+  Voice 6: idle
+    Volume: L=0 R=0
+    Pitch: 0 (0.0 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=0 R=0
+    Gain: 0, Envelope: 0, Output: 0
+
+  Voice 7: ACTIVE
+    Volume: L=0 R=126
+    Pitch: 35796 (8.7 Hz approx)
+    Source: SRCN=0x00
+    ADSR: A=0 D=0 S=0 R=0
+    Gain: 0, Envelope: 16, Output: 0
+
+--- Global Registers ---
+  Master Volume: L=0 R=4
+  KEYON: 0x00 KEYOFF: 0x00
+  DIR (sample dir): 0x00
+  ESA (echo start): 0x00
+  EDL (echo delay): 0
+
+--- SPC RAM Analysis ---
+  Total: 65536 bytes
+  Non-zero: 35577 bytes (54.3%)
+  Sample dir table at SPC RAM 0x0000
+  First 16 sample pointers:
+    Sample 0: 0x0000
+    Sample 1: 0x0000
+    Sample 2: 0x0000
+    Sample 3: 0x0000
+    Sample 4: 0x0000
+    Sample 5: 0x0000
+    Sample 6: 0x0000
+    Sample 7: 0x0000
+    Sample 8: 0x0000
+    Sample 9: 0x0000
+    Sample 10: 0x0000
+    Sample 11: 0x0000
+    Sample 12: 0x0000
+    Sample 13: 0x0000
+    Sample 14: 0x0000
+    Sample 15: 0x0000
