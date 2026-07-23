@@ -1,0 +1,909 @@
+{
+  "total_vram_dumps": 105,
+  "unique_vram_states": 105,
+  "duplicate_rate_pct": 0.0,
+  "dumps_by_directory": {
+    "battle_vram/vram_dumps": 22,
+    "menu_system/vram_dumps": 27,
+    "tilemaps/vram_dumps": 5,
+    "town_interior/vram_dumps": 22,
+    "vram_menu_raw": 4,
+    "vram_raw": 3,
+    "wm_menu/vram_dumps": 22
+  },
+  "vram_regions": {
+    "BG1 map": {
+      "unique_patterns": 105,
+      "all_zero": false,
+      "size": 2048
+    },
+    "BG2 map": {
+      "unique_patterns": 77,
+      "all_zero": false,
+      "size": 2048
+    },
+    "BG3 map": {
+      "unique_patterns": 100,
+      "all_zero": false,
+      "size": 2048
+    },
+    "Unused1": {
+      "unique_patterns": 1,
+      "all_zero": true,
+      "size": 2048
+    },
+    "Empty1": {
+      "unique_patterns": 1,
+      "all_zero": true,
+      "size": 8192
+    },
+    "Dyn char": {
+      "unique_patterns": 101,
+      "all_zero": false,
+      "size": 8192
+    },
+    "Empty2": {
+      "unique_patterns": 1,
+      "all_zero": true,
+      "size": 8192
+    },
+    "Static char": {
+      "unique_patterns": 1,
+      "all_zero": false,
+      "size": 32768
+    }
+  },
+  "static_char_tiles": {
+    "total_slots": 1024,
+    "unique_tiles": 588,
+    "non_empty_tiles": 588
+  },
+  "dynamic_char_tiles": {
+    "total_slots": 256,
+    "unique_tiles": 391,
+    "non_empty_tiles": 390
+  },
+  "unique_cgram_palettes": 2,
+  "unique_dumps": [
+    {
+      "hash": "cf20ecb08c04",
+      "name": "encounter_11",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/encounter_11_vram.bin"
+      ]
+    },
+    {
+      "hash": "571b69e45e3f",
+      "name": "encounter_12",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/encounter_12_vram.bin"
+      ]
+    },
+    {
+      "hash": "03c2a255de83",
+      "name": "encounter_20",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/encounter_20_vram.bin"
+      ]
+    },
+    {
+      "hash": "5e1adbb11f4c",
+      "name": "encounter_21",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/encounter_21_vram.bin"
+      ]
+    },
+    {
+      "hash": "fa08757566d5",
+      "name": "wm_00_town_exit",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_00_town_exit_vram.bin"
+      ]
+    },
+    {
+      "hash": "819aabb777ff",
+      "name": "wm_01_worldmap_start",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_01_worldmap_start_vram.bin"
+      ]
+    },
+    {
+      "hash": "170aae24b209",
+      "name": "wm_02_explore_n",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_02_explore_n_vram.bin"
+      ]
+    },
+    {
+      "hash": "0e0cc42dc595",
+      "name": "wm_03_explore_e",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_03_explore_e_vram.bin"
+      ]
+    },
+    {
+      "hash": "db63a23900fe",
+      "name": "wm_04_explore_s",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_04_explore_s_vram.bin"
+      ]
+    },
+    {
+      "hash": "cc0585d3ffcb",
+      "name": "wm_05_explore_w",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_05_explore_w_vram.bin"
+      ]
+    },
+    {
+      "hash": "38e8a3aa6d65",
+      "name": "wm_06_explore_n2",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_06_explore_n2_vram.bin"
+      ]
+    },
+    {
+      "hash": "446c3e3bcaee",
+      "name": "wm_07_explore_e2",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_07_explore_e2_vram.bin"
+      ]
+    },
+    {
+      "hash": "62dd0e8757a3",
+      "name": "wm_08_explore_s2",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_08_explore_s2_vram.bin"
+      ]
+    },
+    {
+      "hash": "03f83d1431bf",
+      "name": "wm_09_explore_w2",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_09_explore_w2_vram.bin"
+      ]
+    },
+    {
+      "hash": "d92f679f52ce",
+      "name": "wm_10_explore_n3",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_10_explore_n3_vram.bin"
+      ]
+    },
+    {
+      "hash": "a59d82a15f29",
+      "name": "wm_11_explore_e3",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_11_explore_e3_vram.bin"
+      ]
+    },
+    {
+      "hash": "2190779cd888",
+      "name": "wm_12_explore_s3",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_12_explore_s3_vram.bin"
+      ]
+    },
+    {
+      "hash": "b029584bfcb8",
+      "name": "wm_13_explore_w3",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_13_explore_w3_vram.bin"
+      ]
+    },
+    {
+      "hash": "7b0e3e20c4f0",
+      "name": "wm_14_explore_n4",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_14_explore_n4_vram.bin"
+      ]
+    },
+    {
+      "hash": "c4cedada2d1b",
+      "name": "wm_15_explore_final",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_15_explore_final_vram.bin"
+      ]
+    },
+    {
+      "hash": "cebd4c6bc13a",
+      "name": "wm_16_final_walk",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_16_final_walk_vram.bin"
+      ]
+    },
+    {
+      "hash": "8eb795442ab6",
+      "name": "wm_17_end",
+      "directory": "battle_vram/vram_dumps",
+      "sources": [
+        "battle_vram/vram_dumps/wm_17_end_vram.bin"
+      ]
+    },
+    {
+      "hash": "6a15171d0115",
+      "name": "menu_00_main",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_00_main_vram.bin"
+      ]
+    },
+    {
+      "hash": "bef97c5c2c26",
+      "name": "menu_01_nav_down1",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_01_nav_down1_vram.bin"
+      ]
+    },
+    {
+      "hash": "a93369607630",
+      "name": "menu_02_submenu_2nd",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_02_submenu_2nd_vram.bin"
+      ]
+    },
+    {
+      "hash": "15c5013a713f",
+      "name": "menu_03_back_main",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_03_back_main_vram.bin"
+      ]
+    },
+    {
+      "hash": "609fe5e0da70",
+      "name": "menu_04_nav_down2",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_04_nav_down2_vram.bin"
+      ]
+    },
+    {
+      "hash": "0750a55e3d02",
+      "name": "menu_05_submenu_3rd",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_05_submenu_3rd_vram.bin"
+      ]
+    },
+    {
+      "hash": "14925d209db0",
+      "name": "menu_06_back_main2",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_06_back_main2_vram.bin"
+      ]
+    },
+    {
+      "hash": "859cec6d9c6a",
+      "name": "menu_07_nav_down3",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_07_nav_down3_vram.bin"
+      ]
+    },
+    {
+      "hash": "4172195b29e7",
+      "name": "menu_08_submenu_4th",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_08_submenu_4th_vram.bin"
+      ]
+    },
+    {
+      "hash": "b6a191319338",
+      "name": "menu_09_back_main3",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_09_back_main3_vram.bin"
+      ]
+    },
+    {
+      "hash": "f221bb9a133a",
+      "name": "menu_10_nav_down4",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_10_nav_down4_vram.bin"
+      ]
+    },
+    {
+      "hash": "a6e936ebbdd9",
+      "name": "menu_11_submenu_5th",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_11_submenu_5th_vram.bin"
+      ]
+    },
+    {
+      "hash": "6b9acbc5d832",
+      "name": "menu_12_back_main4",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_12_back_main4_vram.bin"
+      ]
+    },
+    {
+      "hash": "eac38d4eaf8a",
+      "name": "menu_13_nav_down5",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_13_nav_down5_vram.bin"
+      ]
+    },
+    {
+      "hash": "0ef5c02c212d",
+      "name": "menu_14_submenu_6th",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_14_submenu_6th_vram.bin"
+      ]
+    },
+    {
+      "hash": "3c7a9948215b",
+      "name": "menu_15_closing",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_15_closing_vram.bin"
+      ]
+    },
+    {
+      "hash": "fd40d23d0020",
+      "name": "menu_16_closed",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_16_closed_vram.bin"
+      ]
+    },
+    {
+      "hash": "ff3958c10785",
+      "name": "menu_17_reopen",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_17_reopen_vram.bin"
+      ]
+    },
+    {
+      "hash": "3ffc330cc90f",
+      "name": "menu_18_nav_up",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_18_nav_up_vram.bin"
+      ]
+    },
+    {
+      "hash": "658ef11760ec",
+      "name": "menu_19_submenu_1st",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_19_submenu_1st_vram.bin"
+      ]
+    },
+    {
+      "hash": "ab2ff85d18b9",
+      "name": "menu_20_submenu_adv",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_20_submenu_adv_vram.bin"
+      ]
+    },
+    {
+      "hash": "cb5b31deba30",
+      "name": "menu_21_closing2",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_21_closing2_vram.bin"
+      ]
+    },
+    {
+      "hash": "ba1cafaaae11",
+      "name": "menu_22_start_menu",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_22_start_menu_vram.bin"
+      ]
+    },
+    {
+      "hash": "ab5f81a2a45f",
+      "name": "menu_23_start_nav",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_23_start_nav_vram.bin"
+      ]
+    },
+    {
+      "hash": "6aa4740df557",
+      "name": "menu_24_start_select",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_24_start_select_vram.bin"
+      ]
+    },
+    {
+      "hash": "7724fb522e9e",
+      "name": "menu_25_start_close",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_25_start_close_vram.bin"
+      ]
+    },
+    {
+      "hash": "fe26ca3048b2",
+      "name": "menu_26_idle",
+      "directory": "menu_system/vram_dumps",
+      "sources": [
+        "menu_system/vram_dumps/menu_26_idle_vram.bin"
+      ]
+    },
+    {
+      "hash": "d959e5e426f9",
+      "name": "menu",
+      "directory": "tilemaps/vram_dumps",
+      "sources": [
+        "tilemaps/vram_dumps/menu_vram.bin"
+      ]
+    },
+    {
+      "hash": "d85b528ccb59",
+      "name": "title",
+      "directory": "tilemaps/vram_dumps",
+      "sources": [
+        "tilemaps/vram_dumps/title_vram.bin"
+      ]
+    },
+    {
+      "hash": "921b8ff3e7df",
+      "name": "town",
+      "directory": "tilemaps/vram_dumps",
+      "sources": [
+        "tilemaps/vram_dumps/town_vram.bin"
+      ]
+    },
+    {
+      "hash": "8cdcba58bc86",
+      "name": "wm_explore",
+      "directory": "tilemaps/vram_dumps",
+      "sources": [
+        "tilemaps/vram_dumps/wm_explore_vram.bin"
+      ]
+    },
+    {
+      "hash": "219d519616ba",
+      "name": "worldmap",
+      "directory": "tilemaps/vram_dumps",
+      "sources": [
+        "tilemaps/vram_dumps/worldmap_vram.bin"
+      ]
+    },
+    {
+      "hash": "92daccf76a5e",
+      "name": "town_00_start",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_00_start_vram.bin"
+      ]
+    },
+    {
+      "hash": "74d0b5a9e96e",
+      "name": "town_01_north",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_01_north_vram.bin"
+      ]
+    },
+    {
+      "hash": "89d883843785",
+      "name": "town_02_ne",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_02_ne_vram.bin"
+      ]
+    },
+    {
+      "hash": "f3e655b34474",
+      "name": "town_03_east",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_03_east_vram.bin"
+      ]
+    },
+    {
+      "hash": "41c4eb23dd29",
+      "name": "town_04_north2",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_04_north2_vram.bin"
+      ]
+    },
+    {
+      "hash": "8f65af030f04",
+      "name": "town_05_west",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_05_west_vram.bin"
+      ]
+    },
+    {
+      "hash": "158b6d90c736",
+      "name": "town_06_nw",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_06_nw_vram.bin"
+      ]
+    },
+    {
+      "hash": "e8659c9b8fac",
+      "name": "town_07_interact",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_07_interact_vram.bin"
+      ]
+    },
+    {
+      "hash": "08eafae15be2",
+      "name": "town_08_south",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_08_south_vram.bin"
+      ]
+    },
+    {
+      "hash": "220dfa2f7917",
+      "name": "town_09_east2",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_09_east2_vram.bin"
+      ]
+    },
+    {
+      "hash": "bc5114aca10f",
+      "name": "town_10_explore",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_10_explore_vram.bin"
+      ]
+    },
+    {
+      "hash": "c1f68be73a20",
+      "name": "town_11_north3",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_11_north3_vram.bin"
+      ]
+    },
+    {
+      "hash": "67acd927adad",
+      "name": "town_12_after_a",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_12_after_a_vram.bin"
+      ]
+    },
+    {
+      "hash": "03fec5eaeec8",
+      "name": "town_13_east3",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_13_east3_vram.bin"
+      ]
+    },
+    {
+      "hash": "e6d172205a91",
+      "name": "town_14_north4",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_14_north4_vram.bin"
+      ]
+    },
+    {
+      "hash": "5adad494a87c",
+      "name": "town_15_west2",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_15_west2_vram.bin"
+      ]
+    },
+    {
+      "hash": "aee5d5caa66c",
+      "name": "town_16_after_interact",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_16_after_interact_vram.bin"
+      ]
+    },
+    {
+      "hash": "6cf4b8b64670",
+      "name": "town_17_south2",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_17_south2_vram.bin"
+      ]
+    },
+    {
+      "hash": "ea933fb73477",
+      "name": "town_18_explore2",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_18_explore2_vram.bin"
+      ]
+    },
+    {
+      "hash": "683c94e6dab7",
+      "name": "town_19_final",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/town_19_final_vram.bin"
+      ]
+    },
+    {
+      "hash": "2cca70bfa3f1",
+      "name": "transition_8",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/transition_8_vram.bin"
+      ]
+    },
+    {
+      "hash": "c787f45ef346",
+      "name": "transition_9",
+      "directory": "town_interior/vram_dumps",
+      "sources": [
+        "town_interior/vram_dumps/transition_9_vram.bin"
+      ]
+    },
+    {
+      "hash": "2cbb5a73192c",
+      "name": "vm_select_menu",
+      "directory": "vram_menu_raw",
+      "sources": [
+        "vram_menu_raw/vm_select_menu_vram.bin"
+      ]
+    },
+    {
+      "hash": "f862e1b8b4ae",
+      "name": "vm_start_menu",
+      "directory": "vram_menu_raw",
+      "sources": [
+        "vram_menu_raw/vm_start_menu_vram.bin"
+      ]
+    },
+    {
+      "hash": "74a681ec59dc",
+      "name": "vm_wm_after_close",
+      "directory": "vram_menu_raw",
+      "sources": [
+        "vram_menu_raw/vm_wm_after_close_vram.bin"
+      ]
+    },
+    {
+      "hash": "c971937855b0",
+      "name": "vm_wm_base",
+      "directory": "vram_menu_raw",
+      "sources": [
+        "vram_menu_raw/vm_wm_base_vram.bin"
+      ]
+    },
+    {
+      "hash": "9f480cfaaecb",
+      "name": "vr_title",
+      "directory": "vram_raw",
+      "sources": [
+        "vram_raw/vr_title_vram.bin"
+      ]
+    },
+    {
+      "hash": "2008f0a659cb",
+      "name": "vr_town",
+      "directory": "vram_raw",
+      "sources": [
+        "vram_raw/vr_town_vram.bin"
+      ]
+    },
+    {
+      "hash": "6b5c6dc4f126",
+      "name": "vr_worldmap",
+      "directory": "vram_raw",
+      "sources": [
+        "vram_raw/vr_worldmap_vram.bin"
+      ]
+    },
+    {
+      "hash": "b1b5da21a6e3",
+      "name": "wm_00_before_menu",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_00_before_menu_vram.bin"
+      ]
+    },
+    {
+      "hash": "56f70d93e6fe",
+      "name": "wm_01_menu_open_x",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_01_menu_open_x_vram.bin"
+      ]
+    },
+    {
+      "hash": "93992b1d18f8",
+      "name": "wm_02_nav_down1",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_02_nav_down1_vram.bin"
+      ]
+    },
+    {
+      "hash": "492c785e4073",
+      "name": "wm_03_nav_down2",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_03_nav_down2_vram.bin"
+      ]
+    },
+    {
+      "hash": "726f64331d99",
+      "name": "wm_04_nav_down3",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_04_nav_down3_vram.bin"
+      ]
+    },
+    {
+      "hash": "c32af2cb73fd",
+      "name": "wm_05_nav_down4",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_05_nav_down4_vram.bin"
+      ]
+    },
+    {
+      "hash": "cf7fb63266cd",
+      "name": "wm_06_nav_down5",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_06_nav_down5_vram.bin"
+      ]
+    },
+    {
+      "hash": "178253279adc",
+      "name": "wm_07_nav_down6",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_07_nav_down6_vram.bin"
+      ]
+    },
+    {
+      "hash": "478c730c3194",
+      "name": "wm_08_submenu_open",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_08_submenu_open_vram.bin"
+      ]
+    },
+    {
+      "hash": "bf7890dba883",
+      "name": "wm_09_submenu_view",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_09_submenu_view_vram.bin"
+      ]
+    },
+    {
+      "hash": "985ea839a82d",
+      "name": "wm_10_back_main_nav_up",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_10_back_main_nav_up_vram.bin"
+      ]
+    },
+    {
+      "hash": "129343b12d07",
+      "name": "wm_11_option_select",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_11_option_select_vram.bin"
+      ]
+    },
+    {
+      "hash": "e905a63c4a49",
+      "name": "wm_12_submenu2_open",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_12_submenu2_open_vram.bin"
+      ]
+    },
+    {
+      "hash": "093a6886b418",
+      "name": "wm_13_closing",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_13_closing_vram.bin"
+      ]
+    },
+    {
+      "hash": "5e9420567135",
+      "name": "wm_14_closed",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_14_closed_vram.bin"
+      ]
+    },
+    {
+      "hash": "4edc541656a8",
+      "name": "wm_15_before_y",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_15_before_y_vram.bin"
+      ]
+    },
+    {
+      "hash": "1fa616f6e772",
+      "name": "wm_16_after_y",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_16_after_y_vram.bin"
+      ]
+    },
+    {
+      "hash": "4704f70f9fc7",
+      "name": "wm_17_before_select",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_17_before_select_vram.bin"
+      ]
+    },
+    {
+      "hash": "59eb7e9ea2ee",
+      "name": "wm_18_after_select",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_18_after_select_vram.bin"
+      ]
+    },
+    {
+      "hash": "7be31ff30356",
+      "name": "wm_19_walking_start",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_19_walking_start_vram.bin"
+      ]
+    },
+    {
+      "hash": "f85c288ab42e",
+      "name": "wm_20_terrain_1",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_20_terrain_1_vram.bin"
+      ]
+    },
+    {
+      "hash": "af4c62232101",
+      "name": "wm_21_terrain_2",
+      "directory": "wm_menu/vram_dumps",
+      "sources": [
+        "wm_menu/vram_dumps/wm_21_terrain_2_vram.bin"
+      ]
+    }
+  ]
+}
