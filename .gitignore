@@ -1,5 +1,9 @@
-# Ignore everything except extracted PNGs
+# Ignore everything except specific file types
 *
 !.gitignore
 !*.png
+!*.lua
+!*.py
+!*.md
+!*.bin
 !*/
